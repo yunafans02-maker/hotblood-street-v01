@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  background: #101b2b;
+  touch-action: none;
+  overscroll-behavior: none;
+}
+body {
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#game {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+canvas {
+  image-rendering: pixelated;
+  display: block;
+  touch-action: none;
+}
+#rotate {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: #111e2c;
+  color: #f6e4be;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: system-ui;
+  z-index: 5;
+}
+#rotate span {
+  font-size: 80px;
+  color: #ffbd57;
+}
+#rotate strong {
+  font-size: 24px;
+}
+#rotate p {
+  line-height: 1.8;
+  color: #9dacbb;
+}
+@media (orientation: portrait) {
+  #rotate {
+    display: flex;
+  }
+}
+
+#boot-status {
+  position: fixed;
+  inset: 0;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+  background: #101b2b;
+  color: #f6e4be;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+}
+#boot-status strong { font-size: 32px; color: #ffcc78; }
+#boot-status button { font: inherit; padding: 12px 24px; background: #e8b46c; color: #152c3c; border: 0; border-radius: 8px; }

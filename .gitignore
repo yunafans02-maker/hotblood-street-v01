@@ -1,0 +1,17 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.zip
+
+.vercel/
+
+# Local tools, generated QA output and credentials
+.agents/
+artifacts/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store

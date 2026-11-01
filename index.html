@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>熱血街頭 · Prototype v0.1</title>
+  </head>
+  <body>
+    <main id="game"></main>
+    <div id="boot-status" role="status" aria-live="polite">
+      <strong>熱血街頭</strong>
+      <p id="boot-message">街頭準備中…</p>
+      <button id="boot-retry" type="button" hidden>重新載入</button>
+      <noscript>請開啟 Safari 的 JavaScript 後重新載入。</noscript>
+    </div>
+    <script>
+      (() => {
+        const panel = document.getElementById('boot-status');
+        const message = document.getElementById('boot-message');
+        const retry = document.getElementById('boot-retry');
+        let ready = false;
+        function failed() {
+          if (ready) return;
+          message.textContent = '遊戲載入未完成，請檢查網路後重試。';
+          retry.hidden = false;
+        }
+        const timeout = setTimeout(failed, 20000);
+        retry.addEventListener('click', () => location.reload());
+        window.addEventListener('error', failed, true);
+        window.addEventListener('unhandledrejection', failed);
+        window.addEventListener('street-game-ready', () => {
+          ready = true;
+          clearTimeout(timeout);
+          panel.remove();
+        }, {once:true});
+      })();
+    </script>
+    <div id="rotate">
+      <span>↻</span><strong>橫過來，準備開打。</strong>
+      <p>請將手機轉為橫向<br />熱血街頭 · Prototype v0.1</p>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

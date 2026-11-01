@@ -1,0 +1,72 @@
+{
+  "version": "0.1",
+  "source": "Original pixel artwork authored for this project; generated deterministically by src/art/characters.ts and src/art/street.ts. No previous game assets.",
+  "canvas": [
+    64,
+    56
+  ],
+  "anchor": [
+    32,
+    50
+  ],
+  "displayScale": 2,
+  "filter": "nearest",
+  "families": [
+    {
+      "id": "hero",
+      "name": "阿澄",
+      "source": "src/art/characters.ts",
+      "palette": [
+        "#35aa9d",
+        "#1d696d",
+        "#f2c45a"
+      ],
+      "animations": {
+        "idle": 4,
+        "walk": 6,
+        "attack": 9,
+        "hurt": 2,
+        "down": 3,
+        "rise": 3,
+        "victory": 4
+      },
+      "approval": "Original direction selected within user-delegated prototype scope; inspected in game and contact sheet",
+      "collision": "Ground-plane body independent from visual extent; facing and depth-gated attack range",
+      "provenance": "Original programmatic pixel artwork, no external image sources"
+    },
+    {
+      "id": "enemy",
+      "name": "紫巷隊員",
+      "source": "src/art/characters.ts",
+      "palette": [
+        "#9260af",
+        "#573b73",
+        "#633a37"
+      ],
+      "animations": {
+        "idle": 4,
+        "walk": 6,
+        "attack": 9,
+        "hurt": 2,
+        "down": 3,
+        "rise": 3,
+        "victory": 4
+      },
+      "approval": "Original direction selected within user-delegated prototype scope; inspected in game and contact sheet",
+      "collision": "Ground-plane body independent from visual extent; facing and depth-gated attack range",
+      "provenance": "Original programmatic pixel artwork, no external image sources"
+    }
+  ],
+  "environment": {
+    "source": "src/art/street.ts",
+    "logicalWorld": [
+      1800,
+      540
+    ],
+    "walkableY": [
+      257,
+      424
+    ],
+    "provenance": "Original vector/pixel scene authored in this project"
+  }
+}
