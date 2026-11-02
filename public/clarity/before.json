@@ -1,0 +1,29 @@
+{
+  "css": {
+    "x": 12,
+    "y": 72,
+    "width": 366,
+    "height": 362.90625,
+    "top": 72,
+    "right": 378,
+    "bottom": 434.90625,
+    "left": 12
+  },
+  "buffer": [
+    92,
+    91
+  ],
+  "dpr": 3,
+  "frustum": [
+    -46,
+    46,
+    45.5,
+    -45.5
+  ],
+  "texture": {
+    "mag": 1003,
+    "min": 1003,
+    "mipmaps": false
+  },
+  "antialias": false
+}

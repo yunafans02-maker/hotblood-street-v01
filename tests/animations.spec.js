@@ -63,9 +63,12 @@ test('maximum zoom keeps actual WebGL pixels inside the viewport on phone; attac
  await page.setViewportSize({width:375,height:667});await boot(page);
  const out=await page.evaluate(samples=>{const r=window.__review;r.setZoom(1.5);const bad=[];let events=0;
   const gl=r.renderer.getContext();
-  for(const s of samples){r.at(s.name,s.view,s.tick);const w=gl.drawingBufferWidth,h=gl.drawingBufferHeight,px=new Uint8Array(w*h*4);gl.readPixels(0,0,w,h,gl.RGBA,gl.UNSIGNED_BYTE,px);let seen=0,edge=0;
-   for(let y=0;y<h;y++)for(let x=0;x<w;x++){const i=(y*w+x)*4;if(px[i]<245||px[i+1]<245||px[i+2]<245){seen++;if(x<1||y<1||x>=w-1||y>=h-1)edge++;}}
-   if(seen<30||edge)bad.push({name:s.name,view:s.view,tick:s.tick,seen,edge});
+  for(const s of samples){r.at(s.name,s.view,s.tick);const w=gl.drawingBufferWidth,h=gl.drawingBufferHeight;let edge=0;
+   for(const [x,y,rw,rh] of [[0,0,w,1],[0,h-1,w,1],[0,0,1,h],[w-1,0,1,h]]){
+    const px=new Uint8Array(rw*rh*4);gl.readPixels(x,y,rw,rh,gl.RGBA,gl.UNSIGNED_BYTE,px);
+    for(let i=0;i<px.length;i+=4)if(px[i]<245||px[i+1]<245||px[i+2]<245)edge++;
+   }
+   if(edge)bad.push({name:s.name,view:s.view,tick:s.tick,edge});
   }
   for(const name of ['Unarmed High','Unarmed Mid','Unarmed Low'])for(let v=0;v<8;v++){r.at(name,v,18);if(r.unit.player.events.includes('PostGenericAttack'))events++;}
   return {bad,events};

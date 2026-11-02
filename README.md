@@ -54,3 +54,7 @@ GitHub 分支 `fix/zhaoyun-unarmed-animations` 提供本輪 Preview。main 保�
 ## 授權
 
 保留官方 `src/tactics-sprite/NOTICE.md` 和 `licenses/` 的 MIT 授權。沒有把官方示範角色放進網頁。
+
+## 像素清晰度修復
+
+`fix/zhaoyun-pixel-clarity` 改用完整 devicePixelRatio 解析度、整數 texel 對齊；不修改角色 PNG 或動畫。瀏覽器 `/clarity/` 提供同一姿勢與100%設定的 Before/After 截圖。[診斷與測試](docs/PIXEL-CLARITY.md)。本輪共9項瀏覽器測試。

@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import './style.css';
+import { resizePixelViewport } from './pixel-viewport.mjs';
 import official from './tactics-sprite/tactics-sprite-data.json';
 import { createAtlas, drawPose, poseAt, findAnimation } from './tactics-sprite/tactics-sprite.mjs';
 import { createTacticsSprite, prepareSheet } from './tactics-sprite/tactics-sprite-three.mjs';
@@ -51,15 +52,10 @@ async function start() {
     $('#view-name').textContent=`視角 ${view+1} · ${labels[view]}`;
     render();
   }
-  function resize() {
-    const w=Math.max(1,viewport.clientWidth), h=Math.max(1,viewport.clientHeight);
-    // Integer framebuffer scaling makes each sprite texel a square, crisp block.
-    // Bound the camera using the largest punch/dead silhouette, not the idle box.
-    const pixelScale=Math.max(1,Math.min(Math.floor(Math.min(w/72,h/64)),Math.max(2,Math.floor(Math.min(w/84,h/74)*zoom))));
-    const rw=Math.ceil(w/pixelScale), rh=Math.ceil(h/pixelScale);
-    renderer.setPixelRatio(1); renderer.setSize(rw,rh,false);
-    camera.left=-rw/2;camera.right=rw/2;camera.top=rh/2;camera.bottom=-rh/2;
-    camera.updateProjectionMatrix(); setView(view);
+  let pixelViewport;
+  function resize(exactCssScale = null) {
+    pixelViewport = resizePixelViewport(renderer, camera, canvas, viewport, zoom, exactCssScale);
+    setView(view);
   }
   function setZoom(value) { zoom=Math.min(1.5,Math.max(.75,value));$('#zoom-value').textContent=`${Math.round(zoom*100)}%`;resize(); }
   function setPlaying(value) { playing=value;lastMs=null;$('#play').textContent=playing?'暫停':'播放';$('#play').setAttribute('aria-pressed',String(playing)); }
@@ -75,7 +71,8 @@ async function start() {
   function exportPng() {const out=document.createElement('canvas');out.width=240;out.height=216;const ctx=out.getContext('2d');ctx.imageSmoothingEnabled=false;drawPose(ctx,sheet.image,unit.player.pose,120,102,3);return out;}
   $('#export').onclick=()=>{const a=document.createElement('a');a.href=exportPng().toDataURL('image/png');a.download=`zhaoyun-${unit.player.animation.name.toLowerCase().replaceAll(' ','-')}.png`;a.click();};
   document.addEventListener('visibilitychange',()=>{lastMs=null;});
-  new ResizeObserver(resize).observe(viewport);
+  new ResizeObserver(() => resize()).observe(viewport);
+  window.addEventListener('resize', () => resize());
   canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();renderer.setAnimationLoop(null);$('#context-error').hidden=false;});
   $('#reload').onclick=()=>location.reload();
   resize();select('Idle');$('#loading').remove();
@@ -88,6 +85,7 @@ async function start() {
     at(name,v,ticks,{chain=false}={}) {testClock=true;elapsed=0;setView(v);unit.play(name,0,chain?playbackOptions(name):{});elapsed=ticks/60;return JSON.parse(JSON.stringify(render()));},
     resume(){testClock=false;lastMs=null;},
     state:()=>({view,zoom,speed,playing,elapsed,selected,animation:unit.player.animation.name,frame:unit.player.pose.shp,origin:unit.group.position.toArray(),meshes:unit.group.children.length,sceneChildren:scene.children.length,shadow:renderer.shadowMap.enabled}),
+    pixelViewport:()=>pixelViewport, setPixelScale:value=>resize(value),
     expected:(name,v,t)=>poseAt(atlas,findAnimation(atlas,name),v,t),
   };
 }
