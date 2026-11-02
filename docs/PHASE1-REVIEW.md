@@ -31,3 +31,11 @@
 ## 版本與安全
 
 在 `rebuild/zhaoyun-reference-static` 分支工作；main／舊版線上頁保持不變。備份為 `backup-before-zhaoyun-reference-rebuild-20261102`，保存原 Commit `6040630a577b2cc78de1e02bae6f8958da5a116c`。不修改其他 Repository，不合併 main，待美術確認才進入後續階段。
+
+## 本輪實際交付驗證
+
+- Vercel Preview 已回報 Ready：https://hotblood-street-v01-git-rebuild-zhaoyun-fa89a5-yunafans02-maker.vercel.app
+- 未登入的外部訪問重導至 Vercel Login，沒有把登入頁 HTTP 200 誤報為角色頁通過。線上已登入後的功能仍需使用者在 iPhone 審閱；未關閉帳戶保護。
+- 本機正式產物五項 Playwright 測試全部通過，npm ci／官方 checker／素材 QA／Build 通過。
+- 從 GitHub 審稿分支乾淨取回的 46 檔逐份 SHA-256 比對一致；乾淨安裝與 Build 再次成功。
+- Draft PR：https://github.com/yunafans02-maker/hotblood-street-v01/pull/1 。不合併 main；使用者確認前不開始動畫。

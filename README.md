@@ -4,7 +4,11 @@ Vite + Three.js r187 + Create Tactics ThreeJS Sprite 官方 Runtime。角色以�
 
 ## 手機審閱
 
-本分支 `rebuild/zhaoyun-reference-static` 使用 Vercel Preview，與 `main` 的舊展示頁分開。開啟 Preview 的 HTTPS 網址即可操作，不需安裝 APK、EXE、電腦程式或下載 ZIP。若 Vercel Preview 啟用帳戶保護，請用已獲授權的 Vercel 帳戶登入。
+本分支 `rebuild/zhaoyun-reference-static` 使用 Vercel Preview，與 `main` 的舊展示頁分開。
+
+**審稿頁：https://hotblood-street-v01-git-rebuild-zhaoyun-fa89a5-yunafans02-maker.vercel.app**
+
+[Draft PR 與 Vercel 部署紀錄](https://github.com/yunafans02-maker/hotblood-street-v01/pull/1)。未登入訪問會重導 Vercel Login；這是既有 Preview 存取保護，沒有擅自關閉。開啟 Preview 的 HTTPS 網址即可操作，不需安裝 APK、EXE、電腦程式或下載 ZIP。若 Vercel Preview 啟用帳戶保護，請用已獲授權的 Vercel 帳戶登入。
 
 頁面只有一名靜止趙雲、八視角、縮放、長槍顯示開關與 PNG 匯出。背景純白；沒有地面、圓盤、漸層或投影陰影。動畫功能不提供，待美術審核後才進入後續開發。
 
