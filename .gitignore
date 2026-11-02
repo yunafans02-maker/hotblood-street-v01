@@ -12,4 +12,3 @@ artifacts/
 *.pem
 *.zip
 __pycache__/
-public/previews/

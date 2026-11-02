@@ -1,0 +1,81 @@
+{
+  "authority": "User-provided Zhao Yun four-view reference; unarmed revision",
+  "receivedFourViews": "zhaoyun_four_views_reference.jpg",
+  "referenceArchive": "JPEG APP1/APP13 metadata stripped without recompressing; decoded RGB pixels unchanged",
+  "edits": "New imagegen motion part drawings, normalized and packed by scripts/build-unarmed-assets.py",
+  "artApproval": "pending",
+  "files": [
+    {
+      "file": "four-views-cleanup.png",
+      "format": "PNG",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "receivedSha256": "c2f1b6d925bf9e205657bdf846ba0f28e8ad25d948f50dc21db9c7a8a505c353",
+      "storedSha256": "c2f1b6d925bf9e205657bdf846ba0f28e8ad25d948f50dc21db9c7a8a505c353",
+      "metadataOnlyStripped": false,
+      "decodedPixelsUnchanged": true
+    },
+    {
+      "file": "left-rear.png",
+      "format": "PNG",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "receivedSha256": "6459494cd28bd45ba37e4b0af3ee3259b1fd7c055b6897f5d02f94521ce883c6",
+      "storedSha256": "6459494cd28bd45ba37e4b0af3ee3259b1fd7c055b6897f5d02f94521ce883c6",
+      "metadataOnlyStripped": false,
+      "decodedPixelsUnchanged": true
+    },
+    {
+      "file": "missing-views.png",
+      "format": "PNG",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "receivedSha256": "7b4bc2d5a8b6d686e0eef13001685f49691a00cba15ee0963d659ac0606e1f40",
+      "storedSha256": "7b4bc2d5a8b6d686e0eef13001685f49691a00cba15ee0963d659ac0606e1f40",
+      "metadataOnlyStripped": false,
+      "decodedPixelsUnchanged": true
+    },
+    {
+      "file": "zhaoyun_four_views_reference.jpg",
+      "format": "JPEG",
+      "size": [
+        1280,
+        960
+      ],
+      "mode": "RGB",
+      "receivedSha256": "0ebf32dbfcd8793d5f5dbf5daecab91a377bcda4c9f165ad29e6d16b69470eb5",
+      "storedSha256": "22d8da270778330667510666dc34f15f673ef3cc16ea51229c0fabc0bf1fe1e8",
+      "metadataOnlyStripped": true,
+      "decodedPixelsUnchanged": true
+    },
+    {
+      "file": "unarmed/back-attack-source.png",
+      "role": "new unarmed motion drawings; alpha-normalized and indexed source archive",
+      "storedSha256": "43a5e3d96b54c33cb5ed3a2b6507b57a2bef1946123af0c310063899f162f0bc"
+    },
+    {
+      "file": "unarmed/body-source.png",
+      "role": "new unarmed motion drawings; alpha-normalized and indexed source archive",
+      "storedSha256": "e05bf8ab02d5ca4dbeb7e02f7563b52e04a1e41528d1f7fdcfead06754ee282d"
+    },
+    {
+      "file": "unarmed/parts-source.png",
+      "role": "new unarmed motion drawings; alpha-normalized and indexed source archive",
+      "storedSha256": "ad4fb70947d1072760efa5b8191509d2c48c90f02f153cb8648a8d706e6dbc0b"
+    },
+    {
+      "file": "unarmed/reaction-source.png",
+      "role": "new unarmed motion drawings; alpha-normalized and indexed source archive",
+      "storedSha256": "ad83e6173bb436cbd57243876f3e5ce1bef2137b473fd3e4ff610336a00e0a04"
+    }
+  ]
+}

@@ -1,0 +1,1501 @@
+{
+  "generatedAt": "2026-11-02T13:55:08.330755+00:00",
+  "playwright": {
+    "expected": 7,
+    "unexpected": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "duration": 7368.834000000001
+  },
+  "mobileSizes": [
+    [
+      390,
+      844
+    ],
+    [
+      375,
+      667
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      667,
+      375
+    ]
+  ],
+  "realIphoneSafari": "not verified",
+  "matrix": [
+    {
+      "name": "Idle",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            3
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            2
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            1
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            8
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            7
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            6
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            5
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            4
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Walk",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Walk Slow",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Walk Fast",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            16,
+            15,
+            14,
+            17,
+            18
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            11,
+            10,
+            9,
+            12,
+            13
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Rotate",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            2,
+            1,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            2,
+            1,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            2,
+            1,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            2,
+            1,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "samples": 8,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Unarmed High",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            94,
+            95,
+            96
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            94,
+            95,
+            96
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            94,
+            95,
+            96
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            143,
+            144,
+            145
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            143,
+            144,
+            145
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            143,
+            144,
+            145
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            143,
+            144,
+            145
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            94,
+            95,
+            96
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Unarmed Mid",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            97,
+            98,
+            99
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            97,
+            98,
+            99
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            97,
+            98,
+            99
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            146,
+            147,
+            148
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            146,
+            147,
+            148
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            146,
+            147,
+            148
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            146,
+            147,
+            148
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            97,
+            98,
+            99
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Unarmed Low",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            97,
+            100,
+            101,
+            102
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            97,
+            100,
+            101,
+            102
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            97,
+            100,
+            101,
+            102
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            146,
+            149,
+            150,
+            151
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            146,
+            149,
+            150,
+            151
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            146,
+            149,
+            150,
+            151
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            141,
+            142,
+            146,
+            149,
+            150,
+            151
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            92,
+            93,
+            97,
+            100,
+            101,
+            102
+          ],
+          "samples": 9,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Defend",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            25
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            25
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            25
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            26
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            26
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            26
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            26
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            25
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Dodge Defend",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            12,
+            25
+          ],
+          "samples": 7,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            12,
+            25
+          ],
+          "samples": 7,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            12,
+            25
+          ],
+          "samples": 7,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            17,
+            26
+          ],
+          "samples": 7,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            17,
+            26
+          ],
+          "samples": 7,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            17,
+            26
+          ],
+          "samples": 7,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            17,
+            26
+          ],
+          "samples": 7,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            12,
+            25
+          ],
+          "samples": 7,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Taking Damage",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            68
+          ],
+          "samples": 2,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            68
+          ],
+          "samples": 2,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            68
+          ],
+          "samples": 2,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            69
+          ],
+          "samples": 2,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            69
+          ],
+          "samples": 2,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            69
+          ],
+          "samples": 2,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            69
+          ],
+          "samples": 2,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            68
+          ],
+          "samples": 2,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Critical",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            21
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            21
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            21
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            22
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            22
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            22
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            22
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            21
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Dead",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            23
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            23
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            23
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            24
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            24
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            24
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            24
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            23
+          ],
+          "samples": 1,
+          "returnsIdle": "official loop/held pose",
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    },
+    {
+      "name": "Revived",
+      "views": [
+        {
+          "view": 1,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            72,
+            19,
+            11
+          ],
+          "samples": 3,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 2,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            72,
+            19,
+            11
+          ],
+          "samples": 3,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 3,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            72,
+            19,
+            11
+          ],
+          "samples": 3,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 4,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            73,
+            20,
+            16
+          ],
+          "samples": 3,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 5,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            73,
+            20,
+            16
+          ],
+          "samples": 3,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 6,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            73,
+            20,
+            16
+          ],
+          "samples": 3,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 7,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            73,
+            20,
+            16
+          ],
+          "samples": 3,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        },
+        {
+          "view": 8,
+          "status": "PASS: official pose / populated cells / browser rendering",
+          "frames": [
+            72,
+            19,
+            11
+          ],
+          "samples": 3,
+          "returnsIdle": true,
+          "artReview": "reviewable; not user-approved"
+        }
+      ]
+    }
+  ]
+}
