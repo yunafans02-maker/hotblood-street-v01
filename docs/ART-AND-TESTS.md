@@ -44,3 +44,13 @@ Idle／Walk／Poke Mid 統一在官方 `unit.update()` 後讀取 `unit.hand('las
 - 動作資料是官方人形動作，盔甲與盔纓沒有另外加布料或物理動畫。
 - iPhone Safari 真機、WebKit 執行及長時間實機 WebGL context 行為尚未驗證。手機控制與 PNG 儲存仍需真機確認。
 - 圖集檢查通過只代表結構合格；畫風與歷史造型仍應由使用者審閱獨立 PNG。
+
+## 線上交付與最後驗收
+
+- 正式網址：https://hotblood-street-v01.vercel.app
+- 獨立透明預覽：https://hotblood-street-v01.vercel.app/zhaoyun-preview.png
+- Vercel 回報部署成功，實際網頁與圖片 HTTP 200；正式 JS／CSS 雜湊與本機 Build 一致。
+- 在實際 HTTPS 網站以 Chromium 驗證桌面八視角、行走、刺槍回站立；另以手機 DPR 3 驗證直向與橫向觸控、動作與視角切換。應用程式 pageerror=0、觀察到的 HTTP 失敗=0。
+- npm ci、官方圖集檢查、必要 cells／握點 QA、npm run build、五項正式產物 Playwright 測試均通過。
+- 已由 GitHub 重製分支乾淨取回全部 31 檔並逐份 SHA-256 比對一致，乾淨安裝與 Build 再次成功；保留的舊版備份分支未改動。
+- iPhone Safari 真機仍未驗證；畫風與歷史造型審閱仍以使用者評估為準。

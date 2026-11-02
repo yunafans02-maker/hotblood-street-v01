@@ -4,7 +4,11 @@
 
 ## iPhone 直接測試
 
-在 Vercel 網頁匯入本 Repository，開啟部署成功後的 HTTPS 網址即可，不需要電腦、APK、EXE 或下載 ZIP。支援橫向與直向；控制列與角色畫布分開。
+直接開啟：https://hotblood-street-v01.vercel.app
+
+獨立趙雲 PNG 預覽：https://hotblood-street-v01.vercel.app/zhaoyun-preview.png
+
+在 iPhone Safari 開啟上述 HTTPS 網址即可，不需要電腦、APK、EXE 或下載 ZIP。支援橫向與直向；控制列與角色畫布分開。部署與原始碼維護設定如下。
 
 | Vercel 設定 | 值 |
 |---|---|
@@ -64,7 +68,7 @@ TEST_BASE_URL=http://127.0.0.1:4173 npm test
 
 本階段的 Idle／Walk／Spear Attack、八視角、縮放與 PNG 匯出已完成。其餘官方動畫未繪製、不在 UI 提供。原創美術仍可依審閱調整。
 
-**iPhone Safari 真機尚未驗證**；Chromium 觸控模擬與 WebGL 軟體渲染測試不等於真機結果。Vercel 部署的實際網址與線上驗收以部署成功結果為準。
+**iPhone Safari 真機尚未驗證**；Chromium 觸控模擬與 WebGL 軟體渲染測試不等於真機結果。已完成上述 HTTPS 網址的 Chromium 桌面及手機觸控模擬線上驗收；不能代替 Safari 真機結果。
 
 ## 備份
 
