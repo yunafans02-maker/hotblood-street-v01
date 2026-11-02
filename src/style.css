@@ -4,9 +4,8 @@
 html,
 body {
   margin: 0;
-  min-height: 100%;
-  background: #f2f0e8;
-  color: #273c49;
+  background: #fff;
+  color: #28364c;
   font-family:
     system-ui,
     -apple-system,
@@ -16,412 +15,236 @@ body {
   padding: env(safe-area-inset-top) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
-button,
-a {
-  -webkit-tap-highlight-color: transparent;
-}
-button {
-  font: inherit;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-button:focus-visible,
-a:focus-visible {
-  outline: 3px solid #a17a43;
-  outline-offset: 3px;
-}
-.app {
-  max-width: 1100px;
+.review {
+  max-width: 1000px;
   margin: auto;
-  padding: 0 36px;
+  padding: 0 24px;
 }
 header {
-  height: 86px;
+  height: 82px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #d7d9ce;
-}
-.brand {
-  font-family: serif;
-  font-size: 28px;
-  letter-spacing: 6px;
-  font-weight: 700;
-}
-.brand span {
-  font-family: system-ui;
-  font-size: 11px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  margin-left: 18px;
-  color: #738180;
-}
-.edition {
-  font-size: 13px;
-  letter-spacing: 3px;
-  line-height: 1.7;
-}
-.edition span {
-  font-size: 9px;
-  color: #819090;
-  letter-spacing: 1.7px;
-}
-.stage {
-  height: min(55vh, 490px);
-  min-height: 290px;
-  position: relative;
-  overflow: hidden;
-  background: radial-gradient(ellipse at 50% 65%, #fffdf7, transparent 60%);
-}
-canvas {
-  display: block;
-  width: 100%;
-  height: 100%;
-  image-rendering: pixelated;
-  touch-action: pan-y;
-}
-.stage-note {
-  position: absolute;
-  top: 22px;
-  left: 0;
-  font-size: 10px;
-  color: #788780;
-  letter-spacing: 2px;
-  pointer-events: none;
-}
-.dot {
-  display: inline-block;
-  width: 5px;
-  height: 5px;
-  background: #a28555;
-  border-radius: 50%;
-  margin-right: 9px;
-}
-.character-caption {
-  position: absolute;
-  left: 0;
-  bottom: 22px;
-  pointer-events: none;
+  border-bottom: 1px solid #e8ebef;
 }
 h1 {
   font-family: serif;
-  font-size: 33px;
-  letter-spacing: 8px;
-  margin: 0 0 10px;
-  font-weight: 500;
-}
-h1 span {
-  font-family: system-ui;
-  display: block;
-  font-size: 10px;
-  letter-spacing: 3px;
-  margin-top: 10px;
-  color: #728080;
-}
-.character-caption p {
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: #92968a;
+  font-size: 26px;
+  letter-spacing: 5px;
   margin: 0;
 }
-.view-label {
-  position: absolute;
-  right: 0;
-  bottom: 25px;
+header p {
   font-size: 10px;
-  letter-spacing: 2px;
-  color: #73837c;
-}
-.controls {
-  border-top: 1px solid #d7d9ce;
-  padding: 20px 0 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 13px;
-}
-.control-row {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  min-height: 42px;
-}
-.label {
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: #73837c;
-  min-width: 48px;
-}
-.controls button {
-  border: 1px solid #d0d5cb;
-  background: #faf9f3;
-  color: #344b54;
-  border-radius: 5px;
-  min-height: 42px;
-  min-width: 42px;
-  padding: 8px 15px;
-  font-size: 13px;
-}
-.controls button:hover {
-  background: #e8ece3;
-}
-.controls button[aria-pressed="true"] {
-  background: #294650;
-  border-color: #294650;
-  color: #fff5de;
-}
-.segmented {
-  display: flex;
-  gap: 5px;
-}
-.segmented button {
-  min-width: 94px;
-}
-.segmented span {
-  padding-left: 8px;
-  color: #9e8356;
-}
-#motion-status {
-  font-size: 10px;
-  letter-spacing: 2px;
-  color: #839086;
-  margin-left: 12px;
-}
-.views {
-  display: flex;
-  gap: 5px;
-}
-.views button {
-  padding: 4px;
-  min-width: 36px;
-}
-.last .export {
-  margin-left: auto;
-  min-width: 160px;
-  border-color: #b7ac96;
-  color: #6d5839;
-}
-.export span {
-  padding-left: 15px;
-}
-#zoom-label {
-  min-width: 38px;
-  text-align: center;
-  font-size: 12px;
-  font-variant-numeric: tabular-nums;
-}
-footer {
-  border-top: 1px solid #d7d9ce;
-  display: flex;
-  justify-content: space-between;
-  font-size: 10px;
+  color: #8990a0;
   letter-spacing: 1px;
-  color: #9a9e90;
-  padding: 15px 0 25px;
+  margin: 4px 0 0;
 }
 a {
-  color: #6e7f77;
+  color: #68748a;
   text-decoration: none;
+  font-size: 11px;
+}
+#viewport {
+  height: 58svh;
+  min-height: 300px;
+  max-height: 600px;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+}
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  image-rendering: pixelated;
+  touch-action: pan-y;
+}
+#view-name {
+  position: absolute;
+  right: 4px;
+  bottom: 16px;
+  color: #9299a5;
+  font-size: 11px;
 }
 #loading {
   position: absolute;
   inset: 0;
   display: grid;
   place-items: center;
-  background: #f2f0e8;
-  color: #6b796d;
+  background: #fff;
   font-size: 13px;
-  z-index: 2;
 }
-@media (max-width: 650px) {
-  .app {
-    padding: 0 20px;
+.controls {
+  padding: 18px 0 12px;
+  border-top: 1px solid #e8ebef;
+}
+.direction-row {
+  display: flex;
+  gap: 8px;
+  max-width: 510px;
+  margin: auto;
+}
+button {
+  font: inherit;
+  border: 1px solid #dde2e9;
+  background: #fff;
+  color: #3c4b64;
+  border-radius: 4px;
+  cursor: pointer;
+  min-height: 42px;
+  min-width: 42px;
+  padding: 7px 12px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+button:hover {
+  background: #f4f6f9;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #3358a1;
+  outline-offset: 2px;
+}
+button[aria-pressed="true"] {
+  background: #283e64;
+  color: #fff;
+  border-color: #283e64;
+}
+#views {
+  display: flex;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+#views button {
+  flex: 1;
+  min-width: 0;
+  width: 0;
+  padding: 4px 0;
+  font-size: 11px;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 13px;
+}
+.zoom {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+output {
+  font-size: 11px;
+  min-width: 43px;
+  text-align: center;
+}
+.status {
+  text-align: center;
+  color: #9299a5;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin: 18px 0 0;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 12px 0 25px;
+  border-top: 1px solid #edf0f4;
+}
+footer a {
+  font-size: 10px;
+}
+@media (max-width: 500px) {
+  .review {
+    padding: 0 16px;
   }
   header {
     height: 72px;
   }
-  .brand {
-    font-size: 25px;
-  }
-  .brand span {
-    display: block;
-    margin: 5px 0 0;
-    font-size: 9px;
-    letter-spacing: 1px;
-  }
-  .edition {
+  header a {
     font-size: 10px;
   }
-  .edition span {
-    font-size: 7px;
+  #viewport {
+    height: 57svh;
+    min-height: 330px;
   }
-  .stage {
-    height: 46svh;
-    min-height: 280px;
+  .direction-row {
+    gap: 5px;
   }
-  .character-caption {
-    bottom: 18px;
+  .actions {
+    gap: 7px;
   }
-  h1 {
-    font-size: 25px;
-  }
-  h1 span {
-    font-size: 9px;
-  }
-  .character-caption p {
-    font-size: 9px;
-  }
-  .view-label {
-    bottom: 18px;
-  }
-  .stage-note {
-    top: 18px;
-    font-size: 9px;
-    letter-spacing: 1px;
-  }
-  .controls {
-    gap: 10px;
-    padding-top: 16px;
-  }
-  .control-row {
-    gap: 6px;
-  }
-  .label {
-    min-width: 33px;
-    letter-spacing: 1px;
-  }
-  .segmented {
-    flex: 1;
-  }
-  .segmented button {
-    min-width: 0;
-    flex: 1;
-    padding: 8px 12px;
-  }
-  #motion-status {
-    display: none;
-  }
-  .views {
-    flex: 1;
-    gap: 3px;
-  }
-  .views button {
-    min-width: 0;
-    flex: 1;
-    min-height: 40px;
-    font-size: 10px;
-  }
-  .controls button {
-    padding: 8px;
-    min-width: 34px;
-  }
-  .last .export {
-    min-width: 130px;
+  button {
+    padding: 6px 9px;
+    min-width: 36px;
     font-size: 12px;
   }
+  .actions > button {
+    font-size: 11px;
+  }
+  .zoom {
+    gap: 2px;
+  }
   footer {
-    font-size: 8px;
-    letter-spacing: 0;
+    gap: 12px;
+  }
+  footer a {
+    font-size: 9px;
   }
 }
 @media (orientation: landscape) and (max-height: 550px) {
-  .app {
+  .review {
     display: grid;
-    grid-template-columns: 1fr 330px;
-    column-gap: 24px;
-    max-width: 1100px;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    column-gap: 20px;
   }
   header {
     grid-column: 1/-1;
-    height: 56px;
+    height: 58px;
   }
-  .brand {
-    font-size: 21px;
-  }
-  .brand span {
-    display: inline;
-    margin-left: 10px;
-    font-size: 9px;
-  }
-  .edition {
-    font-size: 9px;
-  }
-  .stage {
-    height: calc(100svh - 92px);
-    min-height: 235px;
+  #viewport {
+    height: calc(100svh - 99px);
+    min-height: 230px;
   }
   .controls {
-    border-top: 0;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 0;
-    gap: 12px;
+    border: 0;
   }
-  .control-row {
+  .direction-row {
     gap: 4px;
+    width: 100%;
   }
-  .label {
-    min-width: 28px;
-  }
-  .segmented button {
-    min-width: 76px;
-    font-size: 12px;
-  }
-  #motion-status {
-    display: none;
-  }
-  .views {
+  #views {
     gap: 2px;
   }
-  .views button {
-    min-width: 23px;
-    font-size: 9px;
-    padding: 2px;
-  }
-  .controls button {
-    padding: 6px;
+  .direction-row > button {
     min-width: 30px;
+    padding: 5px;
   }
-  .last .export {
-    min-width: 128px;
+  .actions {
+    gap: 5px;
+  }
+  .actions button {
+    min-width: 30px;
+    padding: 5px;
     font-size: 11px;
+  }
+  .zoom {
+    gap: 0;
+  }
+  output {
+    min-width: 36px;
+  }
+  .status {
+    font-size: 9px;
   }
   footer {
     grid-column: 1/-1;
     padding: 9px 0;
-  }
-  .character-caption {
-    bottom: 14px;
-  }
-  .character-caption p {
-    display: none;
-  }
-  h1 {
-    font-size: 24px;
-  }
-  .stage-note {
-    font-size: 9px;
-    top: 14px;
-  }
-}
-/* The view strip may shrink inside the safe area; arrow buttons remain larger touch targets. */
-.views {
-  min-width: 0;
-  flex: 1;
-  max-width: 390px;
-}
-.controls .views button {
-  min-width: 0;
-  width: 0;
-  flex: 1;
-  padding: 4px 0;
-}
-.control-row {
-  min-width: 0;
-}
-@media (orientation: landscape) and (max-height: 550px) {
-  .app {
-    grid-template-columns: minmax(0, 1fr) 310px;
-  }
-  .controls {
-    min-width: 0;
   }
 }
