@@ -1,63 +1,36 @@
-import fs from "node:fs";
-import assert from "node:assert/strict";
-import { checkSheet, decodePng } from "../src/tactics-sprite/check-sheet.mjs";
-const data = JSON.parse(
-    fs.readFileSync("src/tactics-sprite/tactics-sprite-data.json"),
-  ),
-  art = JSON.parse(fs.readFileSync("src/character/static-art.json"));
-const bytes = fs.readFileSync("public/zhaoyun-sheet.png"),
-  report = checkSheet(bytes, data.cells),
-  image = decodePng(bytes);
-assert(report.ok);
-const used = [...new Set(art.frames.flat().map((t) => t[0]))];
-assert(used.length === art.usedCells.length);
-for (const id of used)
-  assert(!report.emptyCells.includes(id), `Missing visible cell ${id}`);
-for (const [id, [x, y]] of Object.entries(art.hands)) {
-  const c = data.cells.find((c) => c.id === id);
-  assert(image.at(c.x + x, c.y + y)[3] === 255, `Empty grip ${id}`);
-}
-const pole = decodePng(fs.readFileSync("public/zhaoyun-spear.png"));
-let visible = 0,
-  transparent = 0,
-  partial = 0,
-  bad = 0;
-for (let y = 0; y < pole.height; y++)
-  for (let x = 0; x < pole.width; x++) {
-    const [r, g, b, a] = pole.at(x, y);
-    if (a === 0) {
-      transparent++;
-      if (r || g || b) bad++;
-    } else visible++;
-    if (a !== 0 && a !== 255) partial++;
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+import {checkSheet} from '../src/tactics-sprite/check-sheet.mjs';
+import {createAtlas,findAnimation,poseAt,createPlayer} from '../src/tactics-sprite/tactics-sprite.mjs';
+import {unarmedData,ACTIONS,playbackOptions,art} from '../src/character/unarmed.mjs';
+fs.mkdirSync('artifacts',{recursive:true});
+const official=JSON.parse(fs.readFileSync('src/tactics-sprite/tactics-sprite-data.json'));
+const data=unarmedData(official),atlas=createAtlas(data);
+assert.deepEqual(data.frames,official.frames);assert.deepEqual(data.sequences,official.sequences);assert.deepEqual(data.idleFrames,official.idleFrames);
+assert.equal(data.hands,null);assert.equal(data.holds,null);
+const report=checkSheet(fs.readFileSync('public/zhaoyun-sheet.png'),data.cells);assert(report.ok);
+const needed=new Set();const matrix=[];const samples=[];
+for(const [name] of ACTIONS){
+ const animation=findAnimation(atlas,name),row={name,views:[]};
+ for(let view=0;view<8;view++){
+  const seq=animation.idle?null:atlas.sequences[view>=3&&view<=6?animation.back:animation.front];
+  let ticks=[0];if(seq){let t=0;ticks=seq.ticks.map(delay=>{const start=t;t+=delay;return start+.1;});}
+  const frames=[];
+  for(const tick of ticks){const pose=poseAt(atlas,animation,view,tick);assert(pose.count>0&&pose.count<=6);
+   for(const tile of pose.tiles.slice(0,pose.count)){assert(!report.emptyCells.includes(tile.id),`${name}/${view}/${tile.id}`);needed.add(tile.id);}
+   frames.push(pose.shp);samples.push({name,view,tick,pose});
   }
-assert(visible && transparent && !partial && !bad);
-assert(
-  art.animations.Walk === "not-created" &&
-    art.animations["Poke Mid"] === "not-created",
-);
-const result = {
-  ok: true,
-  phase: art.phase,
-  artApproval: "pending user review",
-  official: report,
-  requiredStaticCells: used,
-  requiredStaticCellsComplete: true,
-  newGrips: Object.keys(art.hands).length,
-  weapon: {
-    width: pole.width,
-    height: pole.height,
-    visible,
-    transparent,
-    partialAlpha: partial,
-    coloredTransparentPixels: bad,
-  },
-  animations: art.animations,
-};
-fs.writeFileSync(
-  "docs/sheet-check.json",
-  JSON.stringify(result, null, 2) + "\n",
-);
-console.log(
-  `PASS: ${used.length} required static cells, ${Object.keys(art.hands).length} measured grips, transparent independent spear. Art approval pending.`,
-);
+  const player=createPlayer(atlas);player.play(name,0,playbackOptions(name));player.update(2,(view-1+8)%8);
+  const returnExpected=!!playbackOptions(name).then;
+  if(returnExpected)assert.equal(player.animation.name,'Idle');
+  row.views.push({view:view+1,status:'data-pass',frames:[...new Set(frames)],samples:ticks.length,returnsIdle:returnExpected?true:'official loop/held pose'});
+ }
+ matrix.push(row);
+}
+assert.deepEqual([...needed].sort(),[...art.usedCells].sort());
+const result={ok:true,official:report,requiredCells:[...needed].sort(),requiredCellCount:needed.size,requiredCellsComplete:true,framesAndSequencesUnchanged:true,hands:null,holds:null,sheetSha256:crypto.createHash('sha256').update(fs.readFileSync('public/zhaoyun-sheet.png')).digest('hex'),browser:'see animation-acceptance.json',realIphoneSafari:'not verified',artApproval:'not implied by structural tests'};
+fs.writeFileSync('docs/sheet-check.json',JSON.stringify(result,null,2)+'\n');
+fs.writeFileSync('docs/animation-data-check.json',JSON.stringify(matrix,null,2)+'\n');
+fs.writeFileSync('artifacts/animation-samples.json',JSON.stringify(samples));
+console.log(`PASS: ${needed.size} required cells; ${samples.length} official frame/view samples; 14 animations × 8 directions. SHP/SEQ unchanged.`);

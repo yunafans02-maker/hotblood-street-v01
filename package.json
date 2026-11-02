@@ -1,6 +1,6 @@
 {
-  "name": "zhaoyun-reference-static-review",
-  "version": "0.2.0",
+  "name": "zhaoyun-unarmed-animation-review",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -11,13 +11,16 @@
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
     "check:sheet": "node src/tactics-sprite/check-sheet.mjs public/zhaoyun-sheet.png",
-    "test": "playwright test"
+    "test": "playwright test",
+    "pretest": "node scripts/validate-assets.mjs",
+    "validate": "node scripts/validate-assets.mjs",
+    "previews": "node scripts/preview-poses.mjs && python scripts/export-previews.py"
   },
   "dependencies": {
     "three": "0.187.0"
   },
   "devDependencies": {
-    "vite": "6.4.5",
-    "@playwright/test": "1.64.1"
+    "@playwright/test": "1.64.1",
+    "vite": "6.4.5"
   }
 }

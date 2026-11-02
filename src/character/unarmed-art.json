@@ -1,0 +1,533 @@
+{
+  "source": "new reference-based unarmed pose drawings",
+  "animations": [
+    "Idle",
+    "Walk",
+    "Walk Slow",
+    "Walk Fast",
+    "Rotate",
+    "Unarmed High",
+    "Unarmed Mid",
+    "Unarmed Low",
+    "Defend",
+    "Dodge Defend",
+    "Taking Damage",
+    "Critical",
+    "Dead",
+    "Revived"
+  ],
+  "requiredFrames": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    68,
+    69,
+    72,
+    73,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151
+  ],
+  "usedCells": [
+    "AB1",
+    "AB2",
+    "AB3",
+    "AB4",
+    "AF1",
+    "AF2",
+    "AF3",
+    "AF4",
+    "BB1",
+    "BB2",
+    "BB3",
+    "BB4",
+    "BB5",
+    "BF1",
+    "BF2",
+    "BF3",
+    "BF4",
+    "BF5",
+    "DB1",
+    "DB2",
+    "DF1",
+    "DF2",
+    "EF6",
+    "EF7",
+    "HR1",
+    "HR2",
+    "KO1",
+    "KO2",
+    "KO3",
+    "KO4",
+    "LB1",
+    "LB2",
+    "LB3",
+    "LB4",
+    "LB5",
+    "LF1",
+    "LF2",
+    "LF3",
+    "LF4",
+    "LF5",
+    "LG10",
+    "LG11",
+    "LG12",
+    "LG13",
+    "LG14",
+    "LG16",
+    "LG2",
+    "LG27",
+    "LG3",
+    "LG30",
+    "LG35",
+    "LG38",
+    "LG42",
+    "LG43",
+    "LG44",
+    "LG45",
+    "LG46",
+    "LG47",
+    "LG56",
+    "LG6",
+    "LG9",
+    "OV2",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "RB1",
+    "RB2",
+    "RB3",
+    "RB4",
+    "RB5",
+    "RF1",
+    "RF2",
+    "RF3",
+    "RF4",
+    "RF5",
+    "SP2",
+    "SP3",
+    "TB1",
+    "TB2",
+    "TF1",
+    "TF2"
+  ],
+  "armSources": {
+    "LF1": {
+      "sourceArm": 1,
+      "sourceBounds": [
+        189,
+        526,
+        234,
+        582
+      ]
+    },
+    "LF2": {
+      "sourceArm": 2,
+      "sourceBounds": [
+        291,
+        532,
+        323,
+        584
+      ]
+    },
+    "LF3": {
+      "sourceArm": 3,
+      "sourceBounds": [
+        405,
+        526,
+        440,
+        584
+      ]
+    },
+    "LF4": {
+      "sourceArm": 5,
+      "sourceBounds": [
+        590,
+        528,
+        640,
+        584
+      ]
+    },
+    "LF5": {
+      "sourceArm": 9,
+      "sourceBounds": [
+        116,
+        621,
+        174,
+        675
+      ]
+    },
+    "RF1": {
+      "sourceArm": 5,
+      "sourceBounds": [
+        590,
+        528,
+        640,
+        584
+      ]
+    },
+    "RF2": {
+      "sourceArm": 4,
+      "sourceBounds": [
+        479,
+        529,
+        530,
+        584
+      ]
+    },
+    "RF3": {
+      "sourceArm": 2,
+      "sourceBounds": [
+        291,
+        532,
+        323,
+        584
+      ]
+    },
+    "RF4": {
+      "sourceArm": 1,
+      "sourceBounds": [
+        189,
+        526,
+        234,
+        582
+      ]
+    },
+    "RF5": {
+      "sourceArm": 0,
+      "sourceBounds": [
+        108,
+        525,
+        149,
+        581
+      ]
+    },
+    "LB1": {
+      "sourceArm": 10,
+      "sourceBounds": [
+        209,
+        616,
+        245,
+        687
+      ]
+    },
+    "LB2": {
+      "sourceArm": 12,
+      "sourceBounds": [
+        401,
+        616,
+        439,
+        686
+      ]
+    },
+    "LB3": {
+      "sourceArm": 14,
+      "sourceBounds": [
+        583,
+        617,
+        637,
+        686
+      ]
+    },
+    "LB4": {
+      "sourceArm": 16,
+      "sourceBounds": [
+        754,
+        619,
+        808,
+        684
+      ]
+    },
+    "LB5": {
+      "sourceArm": 18,
+      "sourceBounds": [
+        101,
+        723,
+        161,
+        777
+      ]
+    },
+    "RB1": {
+      "sourceArm": 17,
+      "sourceBounds": [
+        843,
+        627,
+        884,
+        675
+      ]
+    },
+    "RB2": {
+      "sourceArm": 15,
+      "sourceBounds": [
+        672,
+        624,
+        718,
+        675
+      ]
+    },
+    "RB3": {
+      "sourceArm": 13,
+      "sourceBounds": [
+        488,
+        615,
+        518,
+        670
+      ]
+    },
+    "RB4": {
+      "sourceArm": 11,
+      "sourceBounds": [
+        287,
+        625,
+        323,
+        670
+      ]
+    },
+    "RB5": {
+      "sourceArm": 10,
+      "sourceBounds": [
+        209,
+        616,
+        245,
+        687
+      ]
+    },
+    "LG2": {
+      "sourceArm": 22,
+      "sourceBounds": [
+        64,
+        1247,
+        143,
+        1291
+      ]
+    },
+    "LG3": {
+      "sourceArm": 23,
+      "sourceBounds": [
+        182,
+        1247,
+        241,
+        1308
+      ]
+    },
+    "LG6": {
+      "sourceArm": 24,
+      "sourceBounds": [
+        477,
+        1260,
+        543,
+        1315
+      ]
+    },
+    "LG9": {
+      "sourceArm": 25,
+      "sourceBounds": [
+        24,
+        1342,
+        99,
+        1392
+      ]
+    },
+    "LG10": {
+      "sourceArm": 28,
+      "sourceBounds": [
+        311,
+        1362,
+        392,
+        1409
+      ]
+    },
+    "LG11": {
+      "sourceArm": 27,
+      "sourceBounds": [
+        227,
+        1347,
+        293,
+        1414
+      ]
+    },
+    "LG12": {
+      "sourceArm": 28,
+      "sourceBounds": [
+        311,
+        1362,
+        392,
+        1409
+      ]
+    },
+    "LG13": {
+      "sourceArm": 29,
+      "sourceBounds": [
+        420,
+        1370,
+        499,
+        1414
+      ]
+    },
+    "LG14": {
+      "sourceArm": 30,
+      "sourceBounds": [
+        211,
+        1495,
+        266,
+        1541
+      ]
+    },
+    "LG16": {
+      "sourceArm": 13,
+      "sourceBounds": [
+        488,
+        615,
+        518,
+        670
+      ]
+    },
+    "LG27": {
+      "sourceArm": 31,
+      "sourceBounds": [
+        446,
+        1470,
+        499,
+        1523
+      ]
+    },
+    "LG30": {
+      "sourceArm": 31,
+      "sourceBounds": [
+        446,
+        1470,
+        499,
+        1523
+      ]
+    },
+    "LG35": {
+      "sourceArm": 32,
+      "sourceBounds": [
+        23,
+        1558,
+        93,
+        1605
+      ]
+    },
+    "LG38": {
+      "sourceArm": 33,
+      "sourceBounds": [
+        117,
+        1561,
+        192,
+        1602
+      ]
+    },
+    "LG42": {
+      "sourceArm": 34,
+      "sourceBounds": [
+        226,
+        1570,
+        290,
+        1624
+      ]
+    },
+    "LG43": {
+      "sourceArm": 36,
+      "sourceBounds": [
+        408,
+        1570,
+        480,
+        1612
+      ]
+    },
+    "LG44": {
+      "sourceArm": 32,
+      "sourceBounds": [
+        23,
+        1558,
+        93,
+        1605
+      ]
+    },
+    "LG45": {
+      "sourceArm": 25,
+      "sourceBounds": [
+        24,
+        1342,
+        99,
+        1392
+      ]
+    },
+    "LG46": {
+      "sourceArm": 36,
+      "sourceBounds": [
+        408,
+        1570,
+        480,
+        1612
+      ]
+    },
+    "LG47": {
+      "sourceArm": 37,
+      "sourceBounds": [
+        499,
+        1570,
+        573,
+        1625
+      ]
+    },
+    "LG56": {
+      "sourceArm": 38,
+      "sourceBounds": [
+        101,
+        1655,
+        153,
+        1716
+      ]
+    }
+  },
+  "paletteLimit": 32,
+  "sheetSha256": "27b5b8456c2b2702d43214a0636051f6ae74901be9764f0f7552525a57309871",
+  "officialFramesUnchanged": true,
+  "officialSequencesUnchanged": true
+}

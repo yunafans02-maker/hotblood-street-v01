@@ -1,0 +1,1360 @@
+[
+  {
+    "name": "Idle",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          3
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          2
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          1
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          8
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          7
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          6
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          5
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          4
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      }
+    ]
+  },
+  {
+    "name": "Walk",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      }
+    ]
+  },
+  {
+    "name": "Walk Slow",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      }
+    ]
+  },
+  {
+    "name": "Walk Fast",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          11,
+          10,
+          9,
+          12,
+          13
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      }
+    ]
+  },
+  {
+    "name": "Rotate",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          2,
+          1,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          2,
+          1,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          2,
+          1,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          2,
+          1,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3
+        ],
+        "samples": 8,
+        "returnsIdle": "official loop/held pose"
+      }
+    ]
+  },
+  {
+    "name": "Unarmed High",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          94,
+          95,
+          96
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          94,
+          95,
+          96
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          94,
+          95,
+          96
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          94,
+          95,
+          96
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      }
+    ]
+  },
+  {
+    "name": "Unarmed Mid",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          97,
+          98,
+          99
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          97,
+          98,
+          99
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          97,
+          98,
+          99
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          146,
+          147,
+          148
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          146,
+          147,
+          148
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          146,
+          147,
+          148
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          146,
+          147,
+          148
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          97,
+          98,
+          99
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      }
+    ]
+  },
+  {
+    "name": "Unarmed Low",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          97,
+          100,
+          101,
+          102
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          97,
+          100,
+          101,
+          102
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          97,
+          100,
+          101,
+          102
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          146,
+          149,
+          150,
+          151
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          146,
+          149,
+          150,
+          151
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          146,
+          149,
+          150,
+          151
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          141,
+          142,
+          146,
+          149,
+          150,
+          151
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          92,
+          93,
+          97,
+          100,
+          101,
+          102
+        ],
+        "samples": 9,
+        "returnsIdle": true
+      }
+    ]
+  },
+  {
+    "name": "Defend",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          25
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          25
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          25
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          26
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          26
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          26
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          26
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          25
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      }
+    ]
+  },
+  {
+    "name": "Dodge Defend",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          12,
+          25
+        ],
+        "samples": 7,
+        "returnsIdle": true
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          12,
+          25
+        ],
+        "samples": 7,
+        "returnsIdle": true
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          12,
+          25
+        ],
+        "samples": 7,
+        "returnsIdle": true
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          17,
+          26
+        ],
+        "samples": 7,
+        "returnsIdle": true
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          17,
+          26
+        ],
+        "samples": 7,
+        "returnsIdle": true
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          17,
+          26
+        ],
+        "samples": 7,
+        "returnsIdle": true
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          17,
+          26
+        ],
+        "samples": 7,
+        "returnsIdle": true
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          12,
+          25
+        ],
+        "samples": 7,
+        "returnsIdle": true
+      }
+    ]
+  },
+  {
+    "name": "Taking Damage",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          68
+        ],
+        "samples": 2,
+        "returnsIdle": true
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          68
+        ],
+        "samples": 2,
+        "returnsIdle": true
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          68
+        ],
+        "samples": 2,
+        "returnsIdle": true
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          69
+        ],
+        "samples": 2,
+        "returnsIdle": true
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          69
+        ],
+        "samples": 2,
+        "returnsIdle": true
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          69
+        ],
+        "samples": 2,
+        "returnsIdle": true
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          69
+        ],
+        "samples": 2,
+        "returnsIdle": true
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          68
+        ],
+        "samples": 2,
+        "returnsIdle": true
+      }
+    ]
+  },
+  {
+    "name": "Critical",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          21
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          21
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          21
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          22
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          22
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          22
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          22
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          21
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      }
+    ]
+  },
+  {
+    "name": "Dead",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          23
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          23
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          23
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          24
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          24
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          24
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          24
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          23
+        ],
+        "samples": 1,
+        "returnsIdle": "official loop/held pose"
+      }
+    ]
+  },
+  {
+    "name": "Revived",
+    "views": [
+      {
+        "view": 1,
+        "status": "data-pass",
+        "frames": [
+          72,
+          19,
+          11
+        ],
+        "samples": 3,
+        "returnsIdle": true
+      },
+      {
+        "view": 2,
+        "status": "data-pass",
+        "frames": [
+          72,
+          19,
+          11
+        ],
+        "samples": 3,
+        "returnsIdle": true
+      },
+      {
+        "view": 3,
+        "status": "data-pass",
+        "frames": [
+          72,
+          19,
+          11
+        ],
+        "samples": 3,
+        "returnsIdle": true
+      },
+      {
+        "view": 4,
+        "status": "data-pass",
+        "frames": [
+          73,
+          20,
+          16
+        ],
+        "samples": 3,
+        "returnsIdle": true
+      },
+      {
+        "view": 5,
+        "status": "data-pass",
+        "frames": [
+          73,
+          20,
+          16
+        ],
+        "samples": 3,
+        "returnsIdle": true
+      },
+      {
+        "view": 6,
+        "status": "data-pass",
+        "frames": [
+          73,
+          20,
+          16
+        ],
+        "samples": 3,
+        "returnsIdle": true
+      },
+      {
+        "view": 7,
+        "status": "data-pass",
+        "frames": [
+          73,
+          20,
+          16
+        ],
+        "samples": 3,
+        "returnsIdle": true
+      },
+      {
+        "view": 8,
+        "status": "data-pass",
+        "frames": [
+          72,
+          19,
+          11
+        ],
+        "samples": 3,
+        "returnsIdle": true
+      }
+    ]
+  }
+]

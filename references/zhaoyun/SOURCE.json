@@ -1,10 +1,8 @@
 {
-  "authority": "This round user-supplied A/B images; no prior Zhao Yun art used",
+  "authority": "User-provided Zhao Yun four-view reference; unarmed revision",
   "receivedFourViews": "zhaoyun_four_views_reference.jpg",
-  "receivedSpear": "zhaoyun_spear_reference.received.jpg",
-  "receivedSpearAlpha": false,
   "referenceArchive": "JPEG APP1/APP13 metadata stripped without recompressing; decoded RGB pixels unchanged",
-  "edits": "imagegen background/shadow removal and supplemental directions; nearest-neighbour sampling, alpha normalization and TYPE1 partition in scripts/build-reference-assets.py",
+  "edits": "New imagegen motion part drawings, normalized and packed by scripts/build-unarmed-assets.py",
   "artApproval": "pending",
   "files": [
     {
@@ -47,19 +45,6 @@
       "decodedPixelsUnchanged": true
     },
     {
-      "file": "spear-cleanup.png",
-      "format": "PNG",
-      "size": [
-        2171,
-        724
-      ],
-      "mode": "RGBA",
-      "receivedSha256": "320c115d1478219ad7b033de6300399d16125da44fa1ebdbb2c81f5725496552",
-      "storedSha256": "320c115d1478219ad7b033de6300399d16125da44fa1ebdbb2c81f5725496552",
-      "metadataOnlyStripped": false,
-      "decodedPixelsUnchanged": true
-    },
-    {
       "file": "zhaoyun_four_views_reference.jpg",
       "format": "JPEG",
       "size": [
@@ -73,17 +58,24 @@
       "decodedPixelsUnchanged": true
     },
     {
-      "file": "zhaoyun_spear_reference.received.jpg",
-      "format": "JPEG",
-      "size": [
-        1280,
-        426
-      ],
-      "mode": "RGB",
-      "receivedSha256": "81e25d878818b0b36842d4b563f5ad882c9e44d1eed68b831119e54ddd012750",
-      "storedSha256": "a9a22ab6bc985ceb3fe0bea366dd8aeb75029c086f70f00accb159e022b4fbec",
-      "metadataOnlyStripped": true,
-      "decodedPixelsUnchanged": true
+      "file": "unarmed/back-attack-source.png",
+      "role": "new unarmed motion drawings; alpha-normalized and indexed source archive",
+      "storedSha256": "43a5e3d96b54c33cb5ed3a2b6507b57a2bef1946123af0c310063899f162f0bc"
+    },
+    {
+      "file": "unarmed/body-source.png",
+      "role": "new unarmed motion drawings; alpha-normalized and indexed source archive",
+      "storedSha256": "e05bf8ab02d5ca4dbeb7e02f7563b52e04a1e41528d1f7fdcfead06754ee282d"
+    },
+    {
+      "file": "unarmed/parts-source.png",
+      "role": "new unarmed motion drawings; alpha-normalized and indexed source archive",
+      "storedSha256": "ad4fb70947d1072760efa5b8191509d2c48c90f02f153cb8648a8d706e6dbc0b"
+    },
+    {
+      "file": "unarmed/reaction-source.png",
+      "role": "new unarmed motion drawings; alpha-normalized and indexed source archive",
+      "storedSha256": "ad83e6173bb436cbd57243876f3e5ce1bef2137b473fd3e4ff610336a00e0a04"
     }
   ]
 }
