@@ -1,80 +1,71 @@
-# 熱血街頭 — Prototype v0.1
+# 趙雲 · 戰棋像素角色預覽器
 
-原創 2D 像素街頭格鬥單關原型。Phaser **3.90.0** + TypeScript + Vite，Canvas 2D；固定 960×540（16:9）邏輯畫面，以 FIT 留邊適配螢幕，不裁切場景。像素圖使用最近鄰取樣及整數座標顯示。獨立專案，不含舊遊戲素材。
+本專案由熱血街頭原型完全重製為單一趙雲角色的網頁預覽器。使用 **Vite + JavaScript + Three.js r187 + Create Tactics ThreeJS Sprite 官方 Runtime**，沒有戰鬥、敵人、地圖、探索或 RPG 系統。
 
-## iPhone 網頁測試
+## iPhone 直接測試
 
-玩家交付方式為 **HTTPS 網頁連結**。在 iPhone Safari 開啟網址並橫放手機即可玩，不需安裝任何程式、下載 ZIP、加入主畫面或準備電腦。
+在 Vercel 網頁匯入本 Repository，開啟部署成功後的 HTTPS 網址即可，不需要電腦、APK、EXE 或下載 ZIP。支援橫向與直向；控制列與角色畫布分開。
 
-**2026-11-01 狀態：網頁建置及 Vercel Preview 設定已備妥，尚待 Vercel 帳戶連接授權，未部署，暫無有效的 HTTPS 測試網址。** 本機網址不能當成 iPhone 測試交付。完成部署後應以實際成功的 Preview URL 更新此處。
-
-## 維護者：建置與部署
-
-以下命令僅供維護者／自動化環境執行，不是玩家操作步驟。Node.js 22.20+（本環境 24.19.0）。
-
-```sh
-npm ci
-npm run build
-```
-
-原始碼 Repository：https://github.com/yunafans02-maker/hotblood-street-v01 ，使用 `main` 分支，專案位於 Repository 根目錄。此獨立 Repository 的 Public 狀態已由擁有者批准。
-
-在 iPhone 的 Vercel 網頁選擇 **Add New → Project**，匯入上述 Repository。設定如下：
-
-| 設定 | 值 |
+| Vercel 設定 | 值 |
 |---|---|
-| Branch | `main` |
-| Framework Preset | `Vite` |
+| Framework | Vite |
 | Root Directory | `./` |
 | Install Command | `npm ci` |
 | Build Command | `npm run build` |
 | Output Directory | `dist` |
 
-`vite.config.ts` 與 `vercel.json` 已明確設定根路徑與建置輸出。上傳原始碼不代表已部署，實際遊戲網址以 Vercel 部署成功後顯示的 HTTPS URL 為準。
+Repository：https://github.com/yunafans02-maker/hotblood-street-v01
 
-`dist/` 是網頁站點根目錄，須以 `text/html` 提供 `index.html`，JS／CSS 以正確 MIME 提供，不可附上 `Content-Disposition: attachment`。首頁重新驗證快取，雜湊資源長期快取。只託管建置產物，不將原始碼目錄當成可下載交付。
+## 已完成功能
 
-內部開發／檢查：
+- 原創約 2.5 頭身趙雲：銀白盔甲、深藍內襯、少量金飾、白色盔纓、深髮、銀色長槍。13 色原生像素，無抗鋸齒。
+- 官方 TYPE1 256×488 圖集；繪製 Idle／Walk／Poke Mid 所需的 52 個 cells。
+- 站立、循環行走、刺槍後回站立；八個官方視角（四種 patterns 與鏡像組合），預設左前視角。
+- 每種動作都持槍，24 個新繪握點與新武器定位；沒有借用示範角色的握點或武器表。
+- Orthographic Camera、Nearest、sRGB、縮放；小畫面會限制最大放大以保持角色及長槍完整。
+- 可匯出目前方向的透明站立 PNG。Safari 如以圖片預覽方式開啟，可長按儲存。
+- 原生獨立 PNG：[public/zhaoyun-idle.png](public/zhaoyun-idle.png)；六倍最近鄰放大預覽：[public/zhaoyun-preview.png](public/zhaoyun-preview.png)。
+
+## 維護者執行與驗證
+
+Node.js >=22.12（本環境 24.19.0）。以下指令是開發者用途，不是玩家啟動步驟。
 
 ```sh
+npm ci
 npm run dev
+npm run check:sheet
+node scripts/validate-assets.mjs
+npm run build
+npx playwright install chromium
+npm test
+```
+
+正式產物驗證：
+
+```sh
 npm run preview -- --port 4173
 TEST_BASE_URL=http://127.0.0.1:4173 npm test
 ```
 
-部署後，以實際 HTTPS URL 再執行網頁測試，並確認在 iPhone Safari 可通過預覽存取驗證。見 `docs/WEB-DELIVERY.md`。
+`/?test` 才會公開 `window.__sprite` 測試介面；一般網址不提供。
 
-## 操作與關卡
+## 素材與 Runtime 來源
 
-- 手機：左下搖桿八方向移動，右下「攻擊」。可同時移動和出拳，攻擊時移動速度降低。連按攻擊接三段，長按可接完已開始的連擊。
-- 鍵盤：WASD 或方向鍵移動，J／空白鍵攻擊。
-- 對準敵人的街道縱深及面向才會命中。第三段重擊使敵人倒地；主角每承受三次有效攻擊也會倒地。起身有短暫保護。
-- 五名普通敵人，以 2／2／1 分三波登場。擊敗全部敵人勝利；HP 歸零失敗。兩種結局均有「重新開始」。
-- 直向顯示旋轉提示，暫停模擬並清空輸入；切換分頁、失焦、觸控取消及調整尺寸也會清除控制狀態。
+- `scripts/draw-zhaoyun.py`：新繪角色的原始像素繪製程式，不讀取任何舊角色、先前趙雲圖片或 `a1.png`。可選用 Python + Pillow 重新產圖，瀏覽器與 Vercel 建置不需要 Python。
+- `public/zhaoyun.png`：原創 TYPE1 圖集；`public/spear.png`：原創長槍。
+- `src/character/art.json`：本角色的調色盤、關節與握點。
+- `src/character/pose.mjs`：新握點資料、持槍投影及原生 PNG 組裝。
+- `src/tactics-sprite/`：官方 Kit，Runtime、序列、模板與 checker 保持原檔。原始 `hands`／`holds` 在載入時替換為新角色資料，不改動官方 frame／sequence。
+- `scripts/capture-previews.mjs`：擷取原生姿勢供 QA，須先啟動伺服器；預覽輸出不納入版控。
 
-## 程式與素材
+來源版本、SHA-256、驗收與限制見 [docs/ART-AND-TESTS.md](docs/ART-AND-TESTS.md)。授權保留於 `src/tactics-sprite/NOTICE.md`、`licenses/tactics-LICENSE.md`、`licenses/three-LICENSE.txt`。未引入上游 `vendor/` 原遊戲二進位、示範角色 PNG、模型或字型。
 
-- `src/art/`：原創像素角色與街道繪製。
-- `src/actors/`：角色狀態機、玩家及敵人行為。
-- `src/systems/`：動畫、輸入、碰撞及戰鬥參數。
-- `src/scenes/`：單關、分波、鏡頭、HUD、勝負及重開。
-- `docs/ART-DIRECTION.md`：人物、色盤、網格、動畫與來源規範。
-- 開發環境另有七項已批准的 Agent Skills，並非遊戲執行依賴，不納入遊戲原始碼 Repository。
+## 已完成與未完成
 
-## 驗證
+本階段的 Idle／Walk／Spear Attack、八視角、縮放與 PNG 匯出已完成。其餘官方動畫未繪製、不在 UI 提供。原創美術仍可依審閱調整。
 
-```sh
-npx playwright install chromium
-npm test
-node scripts/capture-art.mjs
-```
+**iPhone Safari 真機尚未驗證**；Chromium 觸控模擬與 WebGL 軟體渲染測試不等於真機結果。Vercel 部署的實際網址與線上驗收以部署成功結果為準。
 
-Linux 執行瀏覽器需要相應系統函式庫；測試使用 Chromium。測試用網址 `/?test` 額外提供測試用狀態入口 `window.__game`，一般網址不提供。測試包含隔離場景設定及實際鍵盤操作完整通關，並非所有測試都代表未修改初始場景的遊玩。
+## 備份
 
-驗收結果與限制見 `docs/TEST-RESULTS.md`。`artifacts/` 為本機產生的畫面、角色接觸表及素材 QA 報告，不納入版控；可執行上述腳本重建。角色和場景的實際素材來源全部位於 `src/art/`，啟動時在瀏覽器內生成，不依賴這些 QA 檔案。
-
-## 範圍與限制
-
-僅單人、單關、兩種角色造型；沒有 3D、三國角色、裝備、背包、商店、存檔或公開部署。未加入音樂／音效。普通敵人共用造型與簡單狀態機，不提供複雜尋路。Retina 螢幕以固定像素畫布縮放；非整數 CSS 比例下，像素寬度可能略不均勻。原型美術仍有精修空間。
-
-**iPhone Safari 真機尚未驗證**，桌面瀏覽器模擬不能保證安全區、動態工具列與實機觸控表現。
+重製前版本位於 `backup-before-zhaoyun-rebuild`，Commit `176f8e872b55c4fd637c2d4864e4259faf03794c`。保留 Git 歷史，不修改其他 Repository。
