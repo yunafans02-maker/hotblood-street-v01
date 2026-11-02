@@ -1,0 +1,89 @@
+{
+  "authority": "This round user-supplied A/B images; no prior Zhao Yun art used",
+  "receivedFourViews": "zhaoyun_four_views_reference.jpg",
+  "receivedSpear": "zhaoyun_spear_reference.received.jpg",
+  "receivedSpearAlpha": false,
+  "referenceArchive": "JPEG APP1/APP13 metadata stripped without recompressing; decoded RGB pixels unchanged",
+  "edits": "imagegen background/shadow removal and supplemental directions; nearest-neighbour sampling, alpha normalization and TYPE1 partition in scripts/build-reference-assets.py",
+  "artApproval": "pending",
+  "files": [
+    {
+      "file": "four-views-cleanup.png",
+      "format": "PNG",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "receivedSha256": "c2f1b6d925bf9e205657bdf846ba0f28e8ad25d948f50dc21db9c7a8a505c353",
+      "storedSha256": "c2f1b6d925bf9e205657bdf846ba0f28e8ad25d948f50dc21db9c7a8a505c353",
+      "metadataOnlyStripped": false,
+      "decodedPixelsUnchanged": true
+    },
+    {
+      "file": "left-rear.png",
+      "format": "PNG",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "receivedSha256": "6459494cd28bd45ba37e4b0af3ee3259b1fd7c055b6897f5d02f94521ce883c6",
+      "storedSha256": "6459494cd28bd45ba37e4b0af3ee3259b1fd7c055b6897f5d02f94521ce883c6",
+      "metadataOnlyStripped": false,
+      "decodedPixelsUnchanged": true
+    },
+    {
+      "file": "missing-views.png",
+      "format": "PNG",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "receivedSha256": "7b4bc2d5a8b6d686e0eef13001685f49691a00cba15ee0963d659ac0606e1f40",
+      "storedSha256": "7b4bc2d5a8b6d686e0eef13001685f49691a00cba15ee0963d659ac0606e1f40",
+      "metadataOnlyStripped": false,
+      "decodedPixelsUnchanged": true
+    },
+    {
+      "file": "spear-cleanup.png",
+      "format": "PNG",
+      "size": [
+        2171,
+        724
+      ],
+      "mode": "RGBA",
+      "receivedSha256": "320c115d1478219ad7b033de6300399d16125da44fa1ebdbb2c81f5725496552",
+      "storedSha256": "320c115d1478219ad7b033de6300399d16125da44fa1ebdbb2c81f5725496552",
+      "metadataOnlyStripped": false,
+      "decodedPixelsUnchanged": true
+    },
+    {
+      "file": "zhaoyun_four_views_reference.jpg",
+      "format": "JPEG",
+      "size": [
+        1280,
+        960
+      ],
+      "mode": "RGB",
+      "receivedSha256": "0ebf32dbfcd8793d5f5dbf5daecab91a377bcda4c9f165ad29e6d16b69470eb5",
+      "storedSha256": "22d8da270778330667510666dc34f15f673ef3cc16ea51229c0fabc0bf1fe1e8",
+      "metadataOnlyStripped": true,
+      "decodedPixelsUnchanged": true
+    },
+    {
+      "file": "zhaoyun_spear_reference.received.jpg",
+      "format": "JPEG",
+      "size": [
+        1280,
+        426
+      ],
+      "mode": "RGB",
+      "receivedSha256": "81e25d878818b0b36842d4b563f5ad882c9e44d1eed68b831119e54ddd012750",
+      "storedSha256": "a9a22ab6bc985ceb3fe0bea366dd8aeb75029c086f70f00accb159e022b4fbec",
+      "metadataOnlyStripped": true,
+      "decodedPixelsUnchanged": true
+    }
+  ]
+}

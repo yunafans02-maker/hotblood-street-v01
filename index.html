@@ -6,66 +6,52 @@
       name="viewport"
       content="width=device-width,initial-scale=1,viewport-fit=cover"
     />
-    <meta name="theme-color" content="#f2f0e8" />
-    <title>趙雲 · 戰棋像素習作</title>
+    <meta name="theme-color" content="#ffffff" />
+    <title>趙雲 · 第一階段素材審閱</title>
+    <link rel="icon" type="image/png" href="/zhaoyun-preview-native.png" />
   </head>
   <body>
-    <main class="app">
+    <main class="review">
       <header>
-        <div class="brand">子龍<span>像素角色習作 / 01</span></div>
-        <div class="edition">
-          ZHAO YUN<br /><span>TACTICS SPRITE STUDY</span>
+        <div>
+          <h1>趙雲</h1>
+          <p>第一階段 · 靜止角色還原</p>
         </div>
+        <a
+          href="/zhaoyun-four-view-comparison.png"
+          target="_blank"
+          rel="noopener"
+          >四視圖對照 ↗</a
+        >
       </header>
-      <section class="stage" aria-label="趙雲角色預覽">
+      <section id="viewport" aria-label="趙雲靜態角色預覽">
         <canvas id="stage"></canvas>
-        <div class="stage-note">
-          <span class="dot"></span>原創角色 · 低解析度像素
-        </div>
-        <div id="loading" role="status">正在準備趙雲…</div>
-        <div class="character-caption">
-          <h1>趙雲<span>常山趙子龍</span></h1>
-          <p>白甲銀槍 · 東漢末年</p>
-        </div>
-        <div class="view-label" id="view-label">視角 2 / 8</div>
+        <div id="loading" role="status">正在載入角色…</div>
+        <span id="view-name">左前斜角</span>
       </section>
       <section class="controls" aria-label="角色控制">
-        <div class="control-row">
-          <span class="label">動作</span>
-          <div class="segmented" id="animations">
-            <button data-animation="Idle" aria-pressed="true">站立</button
-            ><button data-animation="Walk" aria-pressed="false">行走</button
-            ><button data-animation="Poke Mid" aria-pressed="false">
-              刺槍 <span>↗</span>
-            </button>
+        <div class="direction-row">
+          <button id="previous" aria-label="上一個視角">↶</button>
+          <div id="views" role="group" aria-label="八方向觀察"></div>
+          <button id="next" aria-label="下一個視角">↷</button>
+        </div>
+        <div class="actions">
+          <div class="zoom">
+            <button id="smaller" aria-label="縮小">−</button
+            ><output id="zoom-value">100%</output
+            ><button id="larger" aria-label="放大">＋</button>
           </div>
-          <output id="motion-status" aria-live="polite">站立</output>
+          <button id="weapon" aria-pressed="true">長槍：顯示</button
+          ><button id="export">匯出 PNG ↓</button>
         </div>
-        <div class="control-row">
-          <span class="label">視角</span
-          ><button id="turn-left" aria-label="向左轉動視角">↶</button>
-          <div
-            id="views"
-            class="views"
-            role="group"
-            aria-label="八方向視角"
-          ></div>
-          <button id="turn-right" aria-label="向右轉動視角">↷</button>
-        </div>
-        <div class="control-row last">
-          <span class="label">縮放</span
-          ><button id="zoom-out" aria-label="縮小">−</button
-          ><output id="zoom-label">3×</output
-          ><button id="zoom-in" aria-label="放大">＋</button
-          ><button id="export" class="export">
-            匯出站立 PNG <span>↓</span>
-          </button>
-        </div>
+        <p class="status">素材待審閱 · 行走與刺槍動畫尚未製作</p>
       </section>
       <footer>
-        <span>Idle · Walk · Spear Attack</span
-        ><a href="/zhaoyun-preview.png" target="_blank" rel="noopener"
-          >檢視獨立 PNG ↗</a
+        <a href="/zhaoyun-preview.png" target="_blank" rel="noopener"
+          >無武器透明預覽 ↗</a
+        ><a href="/zhaoyun-sheet.png" target="_blank" rel="noopener">圖集</a
+        ><a href="/zhaoyun-spear.png" target="_blank" rel="noopener"
+          >獨立長槍</a
         >
       </footer>
     </main>

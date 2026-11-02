@@ -5,82 +5,61 @@ import {
   createAtlas,
   poseAt,
   findAnimation,
-  cameraStep,
+  handPoint,
 } from "./tactics-sprite/tactics-sprite.mjs";
 import {
   createTacticsSprite,
   prepareSheet,
   flattenOntoSprite,
 } from "./tactics-sprite/tactics-sprite-three.mjs";
-import { characterData, spearPose, renderPosePng } from "./character/pose.mjs";
+import { staticData, art } from "./character/static.mjs";
 
-const loading = document.querySelector("#loading");
-const fail = (error) => {
-  loading.hidden = false;
-  loading.style.display = "grid";
-  loading.textContent = "角色載入失敗，請重新整理頁面。";
-  console.error(error);
-};
-start().catch(fail);
+start().catch((e) => {
+  console.error(e);
+  const box = document.querySelector("#loading");
+  box.textContent = "角色載入失敗，請重新整理後再試。";
+});
 async function start() {
   const canvas = document.querySelector("#stage"),
-    stage = canvas.parentElement;
+    viewport = canvas.parentElement;
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: false,
-    alpha: true,
+    alpha: false,
   });
-  renderer.setClearColor(0, 0);
+  renderer.setClearColor(0xffffff, 1);
+  renderer.shadowMap.enabled = false;
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   const scene = new THREE.Scene(),
-    camera = new THREE.OrthographicCamera(-45, 45, 45, -45, 1, 2000),
-    focus = new THREE.Vector3(0, 20, 0);
-  const floor = new THREE.Mesh(
-    new THREE.CircleGeometry(22, 64),
-    new THREE.MeshBasicMaterial({
-      color: 0xe3e5d9,
-      transparent: true,
-      opacity: 0.46,
-      depthWrite: false,
-    }),
-  );
-  floor.rotation.x = -Math.PI / 2;
-  floor.position.y = -0.1;
-  scene.add(floor);
-  const ring = new THREE.Mesh(
-    new THREE.RingGeometry(21.9, 22.15, 64),
-    new THREE.MeshBasicMaterial({
-      color: 0xc7cfbf,
-      transparent: true,
-      opacity: 0.8,
-      depthWrite: false,
-    }),
-  );
-  ring.rotation.x = -Math.PI / 2;
-  scene.add(ring);
-  const atlas = createAtlas(characterData(official));
-  const loader = new THREE.TextureLoader();
-  const [sheet, spearTexture] = await Promise.all([
-    loader.loadAsync("/zhaoyun.png"),
-    loader.loadAsync("/spear.png"),
-  ]);
+    camera = new THREE.OrthographicCamera(-80, 80, 80, -80, 1, 2000),
+    atlas = createAtlas(staticData(official));
+  const loader = new THREE.TextureLoader(),
+    [sheet, pole] = await Promise.all([
+      loader.loadAsync("/zhaoyun-sheet.png"),
+      loader.loadAsync("/zhaoyun-spear.png"),
+    ]);
   prepareSheet(sheet);
-  prepareSheet(spearTexture);
+  prepareSheet(pole);
+  // The authoritative reference uses square pixels. Use one uniform scale on every tile and view.
   const unit = createTacticsSprite(atlas, sheet, {
-    facing: "SE",
     animation: "Idle",
+    facing: "SE",
+    scaleX: 1,
+    scaleY: 1,
   });
   unit.group.position.y = unit.standHeight;
   unit.itemLayer = { front: 1, back: 6 };
   scene.add(unit.group);
-  const spear = new THREE.Mesh(
-    new THREE.PlaneGeometry(64 * 0.75, 7 * 0.9).translate(
-      (32 - 18.5) * 0.75,
-      0,
+  const [w, h] = art.spear.size,
+    [gx, gy] = art.spear.grip;
+  const weapon = new THREE.Mesh(
+    new THREE.PlaneGeometry(w, h).translate(
+      w / 2 - gx - 0.5,
+      gy + 0.5 - h / 2,
       0,
     ),
     new THREE.MeshBasicMaterial({
-      map: spearTexture,
+      map: pole,
       transparent: true,
       alphaTest: 0.5,
       depthWrite: false,
@@ -88,206 +67,186 @@ async function start() {
       toneMapped: false,
     }),
   );
-  spear.userData.sprite = unit;
-  spear.material.onBeforeRender = flattenOntoSprite;
-  unit.group.add(spear);
-  let step = 0,
-    zoom = 3,
-    lastName = "Idle",
-    pausedAt = null,
-    clockOffset = 0,
-    freezeTime = null;
-  const now = () =>
-    freezeTime ?? (pausedAt ?? performance.now() / 1000) - clockOffset;
+  weapon.userData.sprite = unit;
+  weapon.material.onBeforeRender = flattenOntoSprite;
+  unit.group.add(weapon);
+  let view = 1,
+    zoom = 1,
+    showWeapon = true;
+  const point = new THREE.Vector3(),
+    focus = new THREE.Vector3(0, 42, 0);
   function resize() {
-    const w = stage.clientWidth,
-      h = stage.clientHeight;
+    const cw = viewport.clientWidth,
+      ch = viewport.clientHeight;
     renderer.setPixelRatio(1);
     renderer.setSize(
-      Math.max(1, Math.floor(w / 2)),
-      Math.max(1, Math.floor(h / 2)),
+      Math.max(1, Math.floor(cw / 2)),
+      Math.max(1, Math.floor(ch / 2)),
       false,
     );
-    const aspect = w / h,
-      half = Math.max((42 * 3) / zoom, 46 / aspect);
+    const aspect = cw / ch,
+      half = Math.max(
+        (showWeapon ? 88 : 42) / zoom,
+        (showWeapon ? 53 : 24) / aspect,
+      );
     camera.left = -half * aspect;
     camera.right = half * aspect;
     camera.top = half;
     camera.bottom = -half;
     camera.updateProjectionMatrix();
+    focus.y = showWeapon ? 42 : 28;
+    setView(view);
   }
-  function aim() {
-    const elevation = Math.atan2(0.3, Math.SQRT1_2),
-      azimuth = Math.atan2(0.5, -0.5) + (step * Math.PI) / 4,
-      flat = Math.cos(elevation) * 400;
+  function setView(v) {
+    view = (v + 8) % 8;
+    const step = (view - 1 + 8) % 8,
+      e = Math.atan2(0.3, Math.SQRT1_2),
+      az = Math.atan2(0.5, -0.5) + (step * Math.PI) / 4,
+      flat = Math.cos(e) * 400;
     camera.position.set(
-      Math.sin(azimuth) * flat,
-      focus.y + Math.sin(elevation) * 400,
-      Math.cos(azimuth) * flat,
+      Math.sin(az) * flat,
+      focus.y + Math.sin(e) * 400,
+      Math.cos(az) * flat,
     );
     camera.lookAt(focus);
     camera.updateMatrixWorld();
-    const view = (1 + step) % 8;
-    document.querySelector("#view-label").textContent = `視角 ${view + 1} / 8`;
+    document.querySelector("#view-name").textContent = art.views[view].label;
     document
       .querySelectorAll("[data-view]")
       .forEach((b) =>
         b.setAttribute("aria-pressed", String(Number(b.dataset.view) === view)),
       );
+    render();
   }
-  function play(name) {
-    unit.play(name, now(), name === "Poke Mid" ? { then: "Idle" } : {});
-    paintState(name);
-  }
-  function paintState(name) {
-    if (
-      name === lastName &&
-      document.querySelector("#motion-status").textContent ===
-        { Idle: "站立", Walk: "行走", "Poke Mid": "刺槍" }[name]
-    )
-      return;
-    lastName = name;
-    document
-      .querySelectorAll("[data-animation]")
-      .forEach((b) =>
-        b.setAttribute("aria-pressed", String(b.dataset.animation === name)),
-      );
-    document.querySelector("#motion-status").textContent = {
-      Idle: "站立",
-      Walk: "行走",
-      "Poke Mid": "刺槍",
-    }[name];
-  }
-  for (let view = 0; view < 8; view++) {
-    const b = document.createElement("button");
-    b.dataset.view = view;
-    b.textContent = String(view + 1).padStart(2, "0");
-    b.setAttribute("aria-label", `觀察視角 ${view + 1}`);
-    b.onclick = () => {
-      step = (view - 1 + 8) % 8;
-      aim();
-    };
-    document.querySelector("#views").append(b);
-  }
-  document
-    .querySelectorAll("[data-animation]")
-    .forEach((b) => (b.onclick = () => play(b.dataset.animation)));
-  document.querySelector("#turn-left").onclick = () => {
-    step = (step + 7) % 8;
-    aim();
-  };
-  document.querySelector("#turn-right").onclick = () => {
-    step = (step + 1) % 8;
-    aim();
-  };
-  function setZoom(z) {
-    zoom = Math.max(2, Math.min(5, z));
-    document.querySelector("#zoom-label").textContent = `${zoom}×`;
-    resize();
-  }
-  document.querySelector("#zoom-in").onclick = () => setZoom(zoom + 1);
-  document.querySelector("#zoom-out").onclick = () => setZoom(zoom - 1);
-  function exportIdle(view = (1 + step) % 8) {
-    return renderPosePng(
-      atlas,
-      poseAt(atlas, findAnimation(atlas, "Idle"), view, 0),
-      view,
-      sheet.image,
-      spearTexture.image,
-    );
-  }
-  document.querySelector("#export").onclick = () => {
-    const png = exportIdle(),
-      a = document.createElement("a");
-    a.href = png.toDataURL("image/png");
-    a.download = `zhaoyun-idle-view-${((1 + step) % 8) + 1}.png`;
-    a.click();
-  };
-  new ResizeObserver(resize).observe(stage);
-  window.addEventListener("resize", resize);
-  document.addEventListener("visibilitychange", () => {
-    if (document.hidden) pausedAt = performance.now() / 1000;
-    else if (pausedAt !== null) {
-      clockOffset += performance.now() / 1000 - pausedAt;
-      pausedAt = null;
-    }
-  });
-  canvas.addEventListener("webglcontextlost", (e) => {
-    e.preventDefault();
-    fail(new Error("WebGL context lost"));
-  });
-  canvas.addEventListener("webglcontextrestored", () => location.reload());
-  aim();
-  resize();
-  const point = new THREE.Vector3();
   function render() {
-    const at = now(),
-      pose = unit.update(at, camera),
-      view =
-        (1 +
-          cameraStep(
-            camera.matrixWorld.elements[8],
-            camera.matrixWorld.elements[10],
-          )) %
-        8,
-      spec = spearPose(atlas, pose, view);
-    const h = unit.hand("last", 0, point);
-    spear.visible = !!h;
-    if (h) {
-      spear.position.copy(unit.group.worldToLocal(h));
-      spear.rotation.set(0, 0, -spec.angle);
-      spear.renderOrder = pose.back ? -10 : 0.5;
+    const pose = unit.update(0, camera),
+      p = unit.hand("last", 0, point);
+    weapon.visible = showWeapon && !!p;
+    if (p) {
+      weapon.position.copy(unit.group.worldToLocal(p));
+      weapon.rotation.set(0, 0, -art.spear.angleByView[view]);
+      weapon.renderOrder = pose.back ? -10 : pose.count - 1.5;
     }
-    paintState(unit.player.animation.name);
     renderer.render(scene, camera);
   }
-  renderer.setAnimationLoop(render);
-  render();
-  loading.remove();
-  const params = new URLSearchParams(location.search);
-  if (params.has("test"))
-    window.__sprite = {
+  function toggleWeapon() {
+    showWeapon = !showWeapon;
+    document.querySelector("#weapon").textContent =
+      `長槍：${showWeapon ? "顯示" : "隱藏"}`;
+    document
+      .querySelector("#weapon")
+      .setAttribute("aria-pressed", String(showWeapon));
+    resize();
+  }
+  for (let v = 0; v < 8; v++) {
+    const b = document.createElement("button");
+    b.dataset.view = v;
+    b.textContent = String(v + 1).padStart(2, "0");
+    b.setAttribute("aria-label", art.views[v].label);
+    b.onclick = () => setView(v);
+    document.querySelector("#views").append(b);
+  }
+  document.querySelector("#previous").onclick = () => setView(view - 1);
+  document.querySelector("#next").onclick = () => setView(view + 1);
+  document.querySelector("#weapon").onclick = toggleWeapon;
+  function setZoom(value) {
+    zoom = Math.min(1.5, Math.max(0.65, value));
+    document.querySelector("#zoom-value").textContent =
+      `${Math.round(zoom * 100)}%`;
+    resize();
+  }
+  document.querySelector("#smaller").onclick = () => setZoom(zoom - 0.15);
+  document.querySelector("#larger").onclick = () => setZoom(zoom + 0.15);
+  function exportPng(v = view, withWeapon = showWeapon) {
+    const c = document.createElement("canvas");
+    c.width = 160;
+    c.height = 192;
+    const ctx = c.getContext("2d");
+    ctx.imageSmoothingEnabled = false;
+    const ox = 80,
+      oy = 126,
+      pose = poseAt(atlas, findAnimation(atlas, "Idle"), v, 0),
+      hand = handPoint(atlas, pose, "last"),
+      insert = v >= 3 && v <= 6 ? 0 : pose.count - 1;
+    const drawWeapon = () => {
+      if (!withWeapon) return;
+      const tmp = document.createElement("canvas");
+      tmp.width = w;
+      tmp.height = h;
+      const tc = tmp.getContext("2d");
+      tc.drawImage(pole.image, 0, 0);
+      const src = tc.getImageData(0, 0, w, h).data,
+        dst = ctx.getImageData(0, 0, c.width, c.height),
+        a = art.spear.angleByView[v],
+        co = Math.cos(a),
+        si = Math.sin(a),
+        hx = ox + hand[0],
+        hy = oy + hand[1];
+      for (let y = 0; y < c.height; y++)
+        for (let x = 0; x < c.width; x++) {
+          const dx = x + 0.5 - hx,
+            dy = y + 0.5 - hy,
+            u = Math.floor(dx * co + dy * si + gx + 0.5),
+            z = Math.floor(-dx * si + dy * co + gy + 0.5);
+          if (u < 0 || u >= w || z < 0 || z >= h) continue;
+          const p = (z * w + u) * 4;
+          if (!src[p + 3]) continue;
+          const q = (y * c.width + x) * 4;
+          for (let k = 0; k < 4; k++) dst.data[q + k] = src[p + k];
+        }
+      ctx.putImageData(dst, 0, 0);
+    };
+    for (let i = 0; i <= pose.count; i++) {
+      if (i === insert) drawWeapon();
+      if (i === pose.count) break;
+      const t = pose.tiles[i];
+      ctx.save();
+      ctx.translate(ox + t.x + (t.flipX ? t.w : 0), oy + t.y);
+      ctx.scale(t.flipX ? -1 : 1, 1);
+      ctx.drawImage(sheet.image, t.sx, t.sy, t.w, t.h, 0, 0, t.w, t.h);
+      ctx.restore();
+    }
+    return c;
+  }
+  document.querySelector("#export").onclick = () => {
+    const a = document.createElement("a");
+    a.href = exportPng().toDataURL("image/png");
+    a.download = `zhaoyun-static-${view + 1}${showWeapon ? "-spear" : ""}.png`;
+    a.click();
+  };
+  new ResizeObserver(resize).observe(viewport);
+  setView(1);
+  resize();
+  document.querySelector("#loading").remove();
+  canvas.addEventListener("webglcontextlost", (e) => {
+    e.preventDefault();
+    alert("畫面暫停，請重新整理頁面。");
+  });
+  if (new URLSearchParams(location.search).has("test"))
+    window.__review = {
       unit,
-      atlas,
+      weapon,
       renderer,
-      camera,
       scene,
-      spear,
-      play,
-      setView(view) {
-        step = (view - 1 + 8) % 8;
-        aim();
-        render();
-      },
+      camera,
+      atlas,
+      art,
+      setView,
       setZoom,
+      toggleWeapon,
+      exportPng,
       render,
-      exportIdle,
-      setTime(t) {
-        freezeTime = t;
-        render();
-      },
-      getState() {
-        const p = unit.player.pose;
-        return {
-          animation: unit.player.animation.name,
-          view: (1 + step) % 8,
-          zoom,
-          frame: p.frame,
-          tiles: p.tiles.slice(0, p.count).map((t) => t.id),
-          hand: spearPose(atlas, p, (1 + step) % 8).hand,
-          spearVisible: spear.visible,
-          orthographic: camera.isOrthographicCamera,
-        };
-      },
-      capture(name, view, tick) {
-        const pose = poseAt(atlas, findAnimation(atlas, name), view, tick);
-        return renderPosePng(
-          atlas,
-          pose,
-          view,
-          sheet.image,
-          spearTexture.image,
-        ).toDataURL();
-      },
+      state: () => ({
+        view,
+        zoom,
+        showWeapon,
+        animation: unit.player.animation.name,
+        phase: art.phase,
+        frame: unit.player.pose.shp,
+        parts: unit.player.pose.count,
+        head: art.views[view].parts.find((p) => p.role === "head").cell,
+        shadowMap: renderer.shadowMap.enabled,
+        sceneChildren: scene.children.length,
+      }),
     };
 }
