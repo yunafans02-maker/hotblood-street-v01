@@ -1,0 +1,8034 @@
+[
+  {
+    "cell": "P1",
+    "x": 17,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 18,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 19,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 20,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 15,
+    "y": 3,
+    "from": "M",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 16,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 17,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 18,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 19,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 20,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 21,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 15,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 16,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 17,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 18,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 19,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 20,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 21,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 22,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 19,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 20,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 21,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 22,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 21,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 22,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 23,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 22,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 23,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 24,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 20,
+    "y": 8,
+    "from": "A",
+    "to": "p",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 22,
+    "y": 8,
+    "from": "M",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 23,
+    "y": 8,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 9,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 18,
+    "y": 9,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 19,
+    "y": 9,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 17,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 20,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 25,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 6,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 7,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 14,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 15,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 16,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 6,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 11,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 14,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 15,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 16,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 5,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 11,
+    "y": 13,
+    "from": "j",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 5,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 5,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 16,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 17,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P1",
+    "x": 11,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P1",
+    "x": 14,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P1",
+    "x": 11,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P1",
+    "x": 7,
+    "y": 12,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P1",
+    "x": 8,
+    "y": 12,
+    "from": "G",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P1",
+    "x": 7,
+    "y": 13,
+    "from": "g",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P1",
+    "x": 8,
+    "y": 13,
+    "from": "S",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 13,
+    "from": "S",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P1",
+    "x": 7,
+    "y": 14,
+    "from": "G",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P1",
+    "x": 8,
+    "y": 14,
+    "from": "S",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 14,
+    "from": "S",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P1",
+    "x": 7,
+    "y": 15,
+    "from": "g",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P1",
+    "x": 8,
+    "y": 15,
+    "from": "S",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 12,
+    "from": "k",
+    "to": "Y",
+    "why": "profile crest"
+  },
+  {
+    "cell": "P1",
+    "x": 8,
+    "y": 13,
+    "from": "H",
+    "to": "G",
+    "why": "profile crest"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 13,
+    "from": "k",
+    "to": "Y",
+    "why": "profile crest"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 13,
+    "from": "H",
+    "to": "G",
+    "why": "profile crest"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 14,
+    "from": "H",
+    "to": "G",
+    "why": "profile crest"
+  },
+  {
+    "cell": "P1",
+    "x": 8,
+    "y": 16,
+    "from": "g",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 16,
+    "from": "S",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 11,
+    "y": 16,
+    "from": "G",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 16,
+    "from": "h",
+    "to": "S",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 8,
+    "y": 17,
+    "from": "S",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 17,
+    "from": "k",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 17,
+    "from": "S",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 11,
+    "y": 17,
+    "from": "S",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 17,
+    "from": "H",
+    "to": "S",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 17,
+    "from": "k",
+    "to": "S",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 8,
+    "y": 18,
+    "from": "S",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 18,
+    "from": "k",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 18,
+    "from": "S",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 11,
+    "y": 18,
+    "from": "S",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 18,
+    "from": "o",
+    "to": "S",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 18,
+    "from": "S",
+    "to": "s",
+    "why": "profile face"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 19,
+    "from": "S",
+    "to": "L",
+    "why": "profile cheek"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 19,
+    "from": "S",
+    "to": "L",
+    "why": "profile cheek"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 19,
+    "from": "G",
+    "to": "s",
+    "why": "profile cheek"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 20,
+    "from": "Y",
+    "to": "S",
+    "why": "profile chin"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 20,
+    "from": "S",
+    "to": "s",
+    "why": "profile chin"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 20,
+    "from": "o",
+    "to": "s",
+    "why": "profile chin"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 17,
+    "from": "L",
+    "to": "k",
+    "why": "single profile eye"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 18,
+    "from": "L",
+    "to": "k",
+    "why": "single profile eye"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 21,
+    "from": "k",
+    "to": "b",
+    "why": "scarf"
+  },
+  {
+    "cell": "P1",
+    "x": 11,
+    "y": 21,
+    "from": "o",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 21,
+    "from": "b",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 21,
+    "from": "P",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P1",
+    "x": 11,
+    "y": 22,
+    "from": "b",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 22,
+    "from": "J",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 22,
+    "from": "W",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 22,
+    "from": "C",
+    "to": "A",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 22,
+    "from": "C",
+    "to": "M",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 23,
+    "from": "S",
+    "to": "M",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 23,
+    "from": "M",
+    "to": "F",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 24,
+    "from": "h",
+    "to": "A",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 24,
+    "from": "S",
+    "to": "M",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P1",
+    "x": 14,
+    "y": 24,
+    "from": "G",
+    "to": "M",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 25,
+    "from": "o",
+    "to": "g",
+    "why": "shoulder rim"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 25,
+    "from": "o",
+    "to": "Y",
+    "why": "shoulder rim"
+  },
+  {
+    "cell": "P1",
+    "x": 14,
+    "y": 25,
+    "from": "o",
+    "to": "G",
+    "why": "shoulder rim"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 26,
+    "from": "o",
+    "to": "F",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 26,
+    "from": "p",
+    "to": "M",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P1",
+    "x": 14,
+    "y": 26,
+    "from": "W",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 27,
+    "from": "s",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 27,
+    "from": "D",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P1",
+    "x": 14,
+    "y": 27,
+    "from": "D",
+    "to": "a",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 28,
+    "from": "k",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 28,
+    "from": "D",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P1",
+    "x": 14,
+    "y": 28,
+    "from": "L",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 29,
+    "from": "k",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P1",
+    "x": 14,
+    "y": 29,
+    "from": "Y",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P1",
+    "x": 12,
+    "y": 30,
+    "from": "o",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P1",
+    "x": 13,
+    "y": 30,
+    "from": "G",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P1",
+    "x": 14,
+    "y": 30,
+    "from": "Y",
+    "to": "s",
+    "why": "fist"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 24,
+    "from": "W",
+    "to": "M",
+    "why": "profile chest"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 24,
+    "from": "W",
+    "to": "M",
+    "why": "profile chest"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 25,
+    "from": "P",
+    "to": "A",
+    "why": "profile chest"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 25,
+    "from": "P",
+    "to": "a",
+    "why": "profile chest"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 27,
+    "from": "G",
+    "to": "Y",
+    "why": "profile belt"
+  },
+  {
+    "cell": "P1",
+    "x": 8,
+    "y": 28,
+    "from": "k",
+    "to": "o",
+    "why": "buckle edge"
+  },
+  {
+    "cell": "P1",
+    "x": 11,
+    "y": 28,
+    "from": "k",
+    "to": "g",
+    "why": "buckle edge"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 29,
+    "from": "b",
+    "to": "M",
+    "why": "skirt"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 29,
+    "from": "o",
+    "to": "A",
+    "why": "skirt"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 30,
+    "from": "B",
+    "to": "M",
+    "why": "skirt"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 30,
+    "from": "o",
+    "to": "A",
+    "why": "skirt"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 31,
+    "from": "B",
+    "to": "A",
+    "why": "skirt"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 31,
+    "from": "o",
+    "to": "G",
+    "why": "skirt"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 32,
+    "from": "G",
+    "to": "Y",
+    "why": "skirt rim"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 32,
+    "from": "o",
+    "to": "G",
+    "why": "skirt rim"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P1",
+    "x": 11,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P1",
+    "x": 14,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P1",
+    "x": 15,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P1",
+    "x": 16,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P1",
+    "x": 17,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P1",
+    "x": 8,
+    "y": 35,
+    "from": "S",
+    "to": "G",
+    "why": "gold cuff material"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 35,
+    "from": "S",
+    "to": "G",
+    "why": "gold cuff material"
+  },
+  {
+    "cell": "P1",
+    "x": 10,
+    "y": 35,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P1",
+    "x": 15,
+    "y": 35,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P1",
+    "x": 16,
+    "y": 35,
+    "from": "S",
+    "to": "G",
+    "why": "gold cuff material"
+  },
+  {
+    "cell": "P1",
+    "x": 9,
+    "y": 36,
+    "from": "S",
+    "to": "G",
+    "why": "gold cuff material"
+  },
+  {
+    "cell": "P1",
+    "x": 7,
+    "y": 37,
+    "from": "p",
+    "to": "A",
+    "why": "boot metal"
+  },
+  {
+    "cell": "P1",
+    "x": 8,
+    "y": 37,
+    "from": "p",
+    "to": "A",
+    "why": "boot metal"
+  },
+  {
+    "cell": "P1",
+    "x": 15,
+    "y": 37,
+    "from": "p",
+    "to": "A",
+    "why": "boot metal"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 20,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 21,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 20,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 21,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 22,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 20,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 21,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 22,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 20,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 21,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 22,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 23,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 22,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 23,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 23,
+    "y": 8,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 24,
+    "y": 8,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 24,
+    "y": 10,
+    "from": "A",
+    "to": "p",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 25,
+    "y": 10,
+    "from": "A",
+    "to": "p",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 22,
+    "y": 12,
+    "from": "A",
+    "to": "p",
+    "why": "plume material"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 26,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 7,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 8,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 9,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 6,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 7,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 5,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 6,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 13,
+    "from": "j",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 5,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 6,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 5,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 6,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 9,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 6,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 9,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 9,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 9,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 9,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 9,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 7,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 8,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 9,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 12,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P2",
+    "x": 8,
+    "y": 13,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 13,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 13,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P2",
+    "x": 9,
+    "y": 14,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 14,
+    "from": "G",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 14,
+    "from": "G",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 15,
+    "from": "G",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 12,
+    "from": "o",
+    "to": "Y",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 13,
+    "from": "H",
+    "to": "Y",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 13,
+    "from": "H",
+    "to": "G",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 13,
+    "from": "h",
+    "to": "Y",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 14,
+    "from": "H",
+    "to": "G",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 14,
+    "from": "k",
+    "to": "Y",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 14,
+    "from": "k",
+    "to": "G",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 15,
+    "from": "k",
+    "to": "g",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 16,
+    "from": "g",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 16,
+    "from": "S",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 16,
+    "from": "S",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 16,
+    "from": "h",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 16,
+    "from": "k",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 16,
+    "from": "h",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 16,
+    "from": "o",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 16,
+    "from": "o",
+    "to": "s",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 9,
+    "y": 17,
+    "from": "h",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 17,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 17,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 17,
+    "from": "k",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 17,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 17,
+    "from": "h",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 17,
+    "from": "h",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 17,
+    "from": "S",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 9,
+    "y": 18,
+    "from": "o",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 18,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 18,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 18,
+    "from": "k",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 18,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 18,
+    "from": "o",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 18,
+    "from": "G",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 18,
+    "from": "G",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 18,
+    "from": "o",
+    "to": "s",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 19,
+    "from": "Y",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 19,
+    "from": "Y",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 19,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 19,
+    "from": "S",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 19,
+    "from": "S",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 19,
+    "from": "G",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 19,
+    "from": "h",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 19,
+    "from": "h",
+    "to": "s",
+    "why": "face plane"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 20,
+    "from": "Y",
+    "to": "S",
+    "why": "chin plane"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 20,
+    "from": "Y",
+    "to": "S",
+    "why": "chin plane"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 20,
+    "from": "k",
+    "to": "S",
+    "why": "chin plane"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 20,
+    "from": "o",
+    "to": "S",
+    "why": "chin plane"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 20,
+    "from": "o",
+    "to": "s",
+    "why": "chin plane"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 17,
+    "from": "L",
+    "to": "k",
+    "why": "plain pixel eye"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 18,
+    "from": "L",
+    "to": "k",
+    "why": "plain pixel eye"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 17,
+    "from": "L",
+    "to": "k",
+    "why": "plain pixel eye"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 18,
+    "from": "L",
+    "to": "k",
+    "why": "plain pixel eye"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 21,
+    "from": "k",
+    "to": "b",
+    "why": "scarf"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 21,
+    "from": "k",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 21,
+    "from": "k",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 21,
+    "from": "o",
+    "to": "b",
+    "why": "scarf"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 22,
+    "from": "B",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 22,
+    "from": "B",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 22,
+    "from": "o",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 22,
+    "from": "G",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 22,
+    "from": "W",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 23,
+    "from": "k",
+    "to": "o",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 23,
+    "from": "k",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 23,
+    "from": "W",
+    "to": "F",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 23,
+    "from": "p",
+    "to": "F",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 23,
+    "from": "G",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 23,
+    "from": "P",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 23,
+    "from": "P",
+    "to": "a",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 24,
+    "from": "W",
+    "to": "o",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 24,
+    "from": "F",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 24,
+    "from": "W",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 24,
+    "from": "o",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 24,
+    "from": "G",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 24,
+    "from": "S",
+    "to": "a",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 25,
+    "from": "P",
+    "to": "o",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 25,
+    "from": "P",
+    "to": "A",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 25,
+    "from": "P",
+    "to": "A",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 25,
+    "from": "p",
+    "to": "A",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 25,
+    "from": "a",
+    "to": "A",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 25,
+    "from": "k",
+    "to": "A",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 25,
+    "from": "H",
+    "to": "o",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 22,
+    "from": "o",
+    "to": "M",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 23,
+    "from": "P",
+    "to": "M",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 23,
+    "from": "p",
+    "to": "F",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 23,
+    "from": "k",
+    "to": "M",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 24,
+    "from": "G",
+    "to": "A",
+    "why": "shoulder thickness"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 24,
+    "from": "G",
+    "to": "M",
+    "why": "shoulder thickness"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 24,
+    "from": "o",
+    "to": "M",
+    "why": "shoulder thickness"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 25,
+    "from": "h",
+    "to": "g",
+    "why": "gold shoulder rim"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 25,
+    "from": "h",
+    "to": "Y",
+    "why": "gold shoulder rim"
+  },
+  {
+    "cell": "P2",
+    "x": 7,
+    "y": 24,
+    "from": "G",
+    "to": "A",
+    "why": "far shoulder"
+  },
+  {
+    "cell": "P2",
+    "x": 8,
+    "y": 24,
+    "from": "o",
+    "to": "M",
+    "why": "far shoulder"
+  },
+  {
+    "cell": "P2",
+    "x": 7,
+    "y": 25,
+    "from": "H",
+    "to": "Y",
+    "why": "far shoulder rim"
+  },
+  {
+    "cell": "P2",
+    "x": 8,
+    "y": 25,
+    "from": "o",
+    "to": "G",
+    "why": "far shoulder rim"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 26,
+    "from": "k",
+    "to": "o",
+    "why": "chest belt boundary"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 26,
+    "from": "k",
+    "to": "o",
+    "why": "chest belt boundary"
+  },
+  {
+    "cell": "P2",
+    "x": 8,
+    "y": 27,
+    "from": "o",
+    "to": "g",
+    "why": "belt"
+  },
+  {
+    "cell": "P2",
+    "x": 11,
+    "y": 27,
+    "from": "S",
+    "to": "G",
+    "why": "belt"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 27,
+    "from": "G",
+    "to": "Y",
+    "why": "belt"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 27,
+    "from": "o",
+    "to": "G",
+    "why": "belt"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 27,
+    "from": "D",
+    "to": "G",
+    "why": "belt"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 27,
+    "from": "D",
+    "to": "g",
+    "why": "belt"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 29,
+    "from": "S",
+    "to": "B",
+    "why": "blue tabard"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 29,
+    "from": "P",
+    "to": "B",
+    "why": "blue tabard"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 30,
+    "from": "s",
+    "to": "B",
+    "why": "blue tabard"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 30,
+    "from": "S",
+    "to": "B",
+    "why": "blue tabard"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 31,
+    "from": "k",
+    "to": "B",
+    "why": "blue tabard"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 31,
+    "from": "S",
+    "to": "B",
+    "why": "blue tabard"
+  },
+  {
+    "cell": "P2",
+    "x": 12,
+    "y": 32,
+    "from": "G",
+    "to": "B",
+    "why": "blue tabard"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 32,
+    "from": "k",
+    "to": "B",
+    "why": "blue tabard"
+  },
+  {
+    "cell": "P2",
+    "x": 14,
+    "y": 32,
+    "from": "S",
+    "to": "B",
+    "why": "blue tabard"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 29,
+    "from": "B",
+    "to": "C",
+    "why": "tabard fold"
+  },
+  {
+    "cell": "P2",
+    "x": 13,
+    "y": 30,
+    "from": "B",
+    "to": "C",
+    "why": "tabard fold"
+  },
+  {
+    "cell": "P2",
+    "x": 9,
+    "y": 29,
+    "from": "G",
+    "to": "M",
+    "why": "left skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 29,
+    "from": "b",
+    "to": "M",
+    "why": "left skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 9,
+    "y": 30,
+    "from": "s",
+    "to": "M",
+    "why": "left skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 30,
+    "from": "B",
+    "to": "A",
+    "why": "left skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 9,
+    "y": 31,
+    "from": "k",
+    "to": "M",
+    "why": "left skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 31,
+    "from": "a",
+    "to": "A",
+    "why": "left skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 9,
+    "y": 32,
+    "from": "o",
+    "to": "Y",
+    "why": "left skirt rim"
+  },
+  {
+    "cell": "P2",
+    "x": 10,
+    "y": 32,
+    "from": "S",
+    "to": "G",
+    "why": "left skirt rim"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 29,
+    "from": "S",
+    "to": "M",
+    "why": "right skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 29,
+    "from": "Y",
+    "to": "M",
+    "why": "right skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 30,
+    "from": "o",
+    "to": "M",
+    "why": "right skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 30,
+    "from": "S",
+    "to": "A",
+    "why": "right skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 31,
+    "from": "A",
+    "to": "M",
+    "why": "right skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 31,
+    "from": "k",
+    "to": "A",
+    "why": "right skirt plate"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 32,
+    "from": "S",
+    "to": "Y",
+    "why": "right skirt rim"
+  },
+  {
+    "cell": "P2",
+    "x": 6,
+    "y": 26,
+    "from": "W",
+    "to": "A",
+    "why": "far gauntlet"
+  },
+  {
+    "cell": "P2",
+    "x": 7,
+    "y": 26,
+    "from": "F",
+    "to": "M",
+    "why": "far gauntlet"
+  },
+  {
+    "cell": "P2",
+    "x": 8,
+    "y": 26,
+    "from": "k",
+    "to": "F",
+    "why": "far gauntlet"
+  },
+  {
+    "cell": "P2",
+    "x": 6,
+    "y": 27,
+    "from": "D",
+    "to": "A",
+    "why": "far gauntlet"
+  },
+  {
+    "cell": "P2",
+    "x": 7,
+    "y": 27,
+    "from": "D",
+    "to": "A",
+    "why": "far gauntlet"
+  },
+  {
+    "cell": "P2",
+    "x": 8,
+    "y": 27,
+    "from": "g",
+    "to": "a",
+    "why": "far gauntlet"
+  },
+  {
+    "cell": "P2",
+    "x": 5,
+    "y": 28,
+    "from": "Y",
+    "to": "L",
+    "why": "far fist"
+  },
+  {
+    "cell": "P2",
+    "x": 6,
+    "y": 28,
+    "from": "Y",
+    "to": "L",
+    "why": "far fist"
+  },
+  {
+    "cell": "P2",
+    "x": 7,
+    "y": 28,
+    "from": "G",
+    "to": "S",
+    "why": "far fist"
+  },
+  {
+    "cell": "P2",
+    "x": 5,
+    "y": 29,
+    "from": "Y",
+    "to": "L",
+    "why": "far fist"
+  },
+  {
+    "cell": "P2",
+    "x": 7,
+    "y": 29,
+    "from": "s",
+    "to": "S",
+    "why": "far fist"
+  },
+  {
+    "cell": "P2",
+    "x": 7,
+    "y": 30,
+    "from": "k",
+    "to": "s",
+    "why": "far fist"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 26,
+    "from": "P",
+    "to": "F",
+    "why": "near gauntlet"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 26,
+    "from": "o",
+    "to": "M",
+    "why": "near gauntlet"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 27,
+    "from": "D",
+    "to": "A",
+    "why": "near gauntlet"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 27,
+    "from": "o",
+    "to": "A",
+    "why": "near gauntlet"
+  },
+  {
+    "cell": "P2",
+    "x": 20,
+    "y": 27,
+    "from": "o",
+    "to": "a",
+    "why": "near gauntlet"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 28,
+    "from": "s",
+    "to": "L",
+    "why": "near fist"
+  },
+  {
+    "cell": "P2",
+    "x": 20,
+    "y": 28,
+    "from": "B",
+    "to": "L",
+    "why": "near fist"
+  },
+  {
+    "cell": "P2",
+    "x": 21,
+    "y": 28,
+    "from": "b",
+    "to": "S",
+    "why": "near fist"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 29,
+    "from": "J",
+    "to": "L",
+    "why": "near fist"
+  },
+  {
+    "cell": "P2",
+    "x": 20,
+    "y": 29,
+    "from": "B",
+    "to": "S",
+    "why": "near fist"
+  },
+  {
+    "cell": "P2",
+    "x": 21,
+    "y": 29,
+    "from": "B",
+    "to": "S",
+    "why": "near fist"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 30,
+    "from": "s",
+    "to": "S",
+    "why": "near fist"
+  },
+  {
+    "cell": "P2",
+    "x": 20,
+    "y": 30,
+    "from": "B",
+    "to": "S",
+    "why": "near fist"
+  },
+  {
+    "cell": "P2",
+    "x": 21,
+    "y": 30,
+    "from": "B",
+    "to": "s",
+    "why": "near fist"
+  },
+  {
+    "cell": "P2",
+    "x": 7,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P2",
+    "x": 8,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P2",
+    "x": 15,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P2",
+    "x": 17,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P2",
+    "x": 8,
+    "y": 35,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P2",
+    "x": 16,
+    "y": 35,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P2",
+    "x": 18,
+    "y": 35,
+    "from": "S",
+    "to": "G",
+    "why": "gold cuff material"
+  },
+  {
+    "cell": "P2",
+    "x": 19,
+    "y": 36,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 21,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 21,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 21,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 22,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 22,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 23,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 22,
+    "y": 8,
+    "from": "M",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 23,
+    "y": 8,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 21,
+    "y": 9,
+    "from": "A",
+    "to": "p",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 23,
+    "y": 13,
+    "from": "A",
+    "to": "p",
+    "why": "plume material"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 9,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 25,
+    "y": 9,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 8,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 11,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 7,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 8,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 7,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 11,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 16,
+    "from": "J",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P3",
+    "x": 11,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 12,
+    "from": "G",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 13,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 13,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 13,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 14,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 14,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 14,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 15,
+    "from": "S",
+    "to": "H",
+    "why": "crest separation"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 12,
+    "from": "o",
+    "to": "Y",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 13,
+    "from": "H",
+    "to": "Y",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 13,
+    "from": "o",
+    "to": "G",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 13,
+    "from": "h",
+    "to": "Y",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 14,
+    "from": "H",
+    "to": "G",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 14,
+    "from": "H",
+    "to": "Y",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 14,
+    "from": "H",
+    "to": "Y",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 14,
+    "from": "k",
+    "to": "Y",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 14,
+    "from": "o",
+    "to": "G",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 15,
+    "from": "h",
+    "to": "g",
+    "why": "gold crest"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 16,
+    "from": "S",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 16,
+    "from": "G",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 16,
+    "from": "g",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 16,
+    "from": "S",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 16,
+    "from": "S",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 16,
+    "from": "h",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 16,
+    "from": "o",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 16,
+    "from": "h",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 17,
+    "from": "k",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 17,
+    "from": "S",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 17,
+    "from": "S",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 17,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 17,
+    "from": "k",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 17,
+    "from": "J",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 17,
+    "from": "H",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 17,
+    "from": "H",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 17,
+    "from": "o",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 18,
+    "from": "k",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 18,
+    "from": "S",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 18,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 18,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 18,
+    "from": "k",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 18,
+    "from": "J",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 18,
+    "from": "H",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 18,
+    "from": "o",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 18,
+    "from": "B",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 19,
+    "from": "Y",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 19,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 19,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 19,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 19,
+    "from": "Y",
+    "to": "L",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 19,
+    "from": "G",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 19,
+    "from": "k",
+    "to": "S",
+    "why": "face plane"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 20,
+    "from": "Y",
+    "to": "S",
+    "why": "chin plane"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 20,
+    "from": "G",
+    "to": "S",
+    "why": "chin plane"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 20,
+    "from": "k",
+    "to": "s",
+    "why": "chin plane"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 17,
+    "from": "L",
+    "to": "k",
+    "why": "plain pixel eye"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 18,
+    "from": "L",
+    "to": "k",
+    "why": "plain pixel eye"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 17,
+    "from": "L",
+    "to": "k",
+    "why": "plain pixel eye"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 18,
+    "from": "L",
+    "to": "k",
+    "why": "plain pixel eye"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 21,
+    "from": "B",
+    "to": "b",
+    "why": "scarf"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 21,
+    "from": "o",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 21,
+    "from": "k",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 21,
+    "from": "k",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 21,
+    "from": "B",
+    "to": "b",
+    "why": "scarf"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 22,
+    "from": "k",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 22,
+    "from": "B",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 22,
+    "from": "B",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 22,
+    "from": "B",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 22,
+    "from": "b",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 22,
+    "from": "o",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 23,
+    "from": "P",
+    "to": "o",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 23,
+    "from": "k",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 23,
+    "from": "b",
+    "to": "F",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 23,
+    "from": "k",
+    "to": "F",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 23,
+    "from": "P",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 23,
+    "from": "k",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 23,
+    "from": "S",
+    "to": "o",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 24,
+    "from": "M",
+    "to": "o",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 24,
+    "from": "W",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 24,
+    "from": "W",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 24,
+    "from": "W",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 24,
+    "from": "W",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 24,
+    "from": "a",
+    "to": "M",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 24,
+    "from": "k",
+    "to": "o",
+    "why": "chest plane"
+  },
+  {
+    "cell": "P3",
+    "x": 12,
+    "y": 25,
+    "from": "A",
+    "to": "o",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 25,
+    "from": "P",
+    "to": "A",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 25,
+    "from": "P",
+    "to": "A",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 25,
+    "from": "P",
+    "to": "A",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 25,
+    "from": "P",
+    "to": "A",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 25,
+    "from": "a",
+    "to": "A",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 25,
+    "from": "k",
+    "to": "o",
+    "why": "chest shadow"
+  },
+  {
+    "cell": "P3",
+    "x": 13,
+    "y": 26,
+    "from": "k",
+    "to": "o",
+    "why": "chest belt boundary"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 26,
+    "from": "k",
+    "to": "o",
+    "why": "chest belt boundary"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 26,
+    "from": "k",
+    "to": "o",
+    "why": "chest belt boundary"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 26,
+    "from": "k",
+    "to": "o",
+    "why": "chest belt boundary"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 26,
+    "from": "k",
+    "to": "o",
+    "why": "chest belt boundary"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 26,
+    "from": "P",
+    "to": "o",
+    "why": "chest belt boundary"
+  },
+  {
+    "cell": "P3",
+    "x": 8,
+    "y": 22,
+    "from": "o",
+    "to": "A",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 22,
+    "from": "F",
+    "to": "M",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 22,
+    "from": "P",
+    "to": "F",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P3",
+    "x": 8,
+    "y": 23,
+    "from": "P",
+    "to": "M",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 23,
+    "from": "P",
+    "to": "F",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 23,
+    "from": "S",
+    "to": "M",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P3",
+    "x": 8,
+    "y": 24,
+    "from": "S",
+    "to": "A",
+    "why": "shoulder thickness"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 24,
+    "from": "S",
+    "to": "M",
+    "why": "shoulder thickness"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 24,
+    "from": "s",
+    "to": "M",
+    "why": "shoulder thickness"
+  },
+  {
+    "cell": "P3",
+    "x": 8,
+    "y": 25,
+    "from": "h",
+    "to": "g",
+    "why": "shoulder rim"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 25,
+    "from": "h",
+    "to": "Y",
+    "why": "shoulder rim"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 25,
+    "from": "k",
+    "to": "G",
+    "why": "shoulder rim"
+  },
+  {
+    "cell": "P3",
+    "x": 8,
+    "y": 26,
+    "from": "W",
+    "to": "F",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 26,
+    "from": "P",
+    "to": "M",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 26,
+    "from": "k",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 8,
+    "y": 27,
+    "from": "D",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 27,
+    "from": "p",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 27,
+    "from": "o",
+    "to": "a",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 8,
+    "y": 28,
+    "from": "S",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 28,
+    "from": "h",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 28,
+    "from": "o",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 8,
+    "y": 29,
+    "from": "S",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 29,
+    "from": "o",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 29,
+    "from": "p",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 30,
+    "from": "A",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 30,
+    "from": "M",
+    "to": "s",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 22,
+    "from": "D",
+    "to": "A",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 23,
+    "from": "P",
+    "to": "M",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P3",
+    "x": 21,
+    "y": 23,
+    "from": "k",
+    "to": "F",
+    "why": "shoulder cap"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 24,
+    "from": "S",
+    "to": "A",
+    "why": "shoulder thickness"
+  },
+  {
+    "cell": "P3",
+    "x": 21,
+    "y": 24,
+    "from": "k",
+    "to": "M",
+    "why": "shoulder thickness"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 25,
+    "from": "h",
+    "to": "g",
+    "why": "shoulder rim"
+  },
+  {
+    "cell": "P3",
+    "x": 21,
+    "y": 25,
+    "from": "o",
+    "to": "Y",
+    "why": "shoulder rim"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 26,
+    "from": "W",
+    "to": "F",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 21,
+    "y": 26,
+    "from": "A",
+    "to": "M",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 22,
+    "y": 26,
+    "from": "o",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 27,
+    "from": "D",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 21,
+    "y": 27,
+    "from": "D",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 22,
+    "y": 27,
+    "from": "o",
+    "to": "a",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 28,
+    "from": "S",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 21,
+    "y": 28,
+    "from": "Y",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 22,
+    "y": 28,
+    "from": "Y",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 29,
+    "from": "S",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 21,
+    "y": 29,
+    "from": "Y",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 22,
+    "y": 29,
+    "from": "Y",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 30,
+    "from": "s",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 22,
+    "y": 30,
+    "from": "S",
+    "to": "s",
+    "why": "fist"
+  },
+  {
+    "cell": "P3",
+    "x": 11,
+    "y": 27,
+    "from": "G",
+    "to": "g",
+    "why": "belt"
+  },
+  {
+    "cell": "P3",
+    "x": 14,
+    "y": 27,
+    "from": "S",
+    "to": "G",
+    "why": "belt"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 27,
+    "from": "G",
+    "to": "Y",
+    "why": "belt"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 27,
+    "from": "o",
+    "to": "G",
+    "why": "belt"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 27,
+    "from": "p",
+    "to": "g",
+    "why": "belt"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 29,
+    "from": "S",
+    "to": "B",
+    "why": "tabard"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 30,
+    "from": "S",
+    "to": "B",
+    "why": "tabard"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 31,
+    "from": "k",
+    "to": "B",
+    "why": "tabard"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 32,
+    "from": "G",
+    "to": "B",
+    "why": "tabard"
+  },
+  {
+    "cell": "P3",
+    "x": 16,
+    "y": 32,
+    "from": "k",
+    "to": "B",
+    "why": "tabard"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 29,
+    "from": "B",
+    "to": "C",
+    "why": "tabard fold"
+  },
+  {
+    "cell": "P3",
+    "x": 15,
+    "y": 30,
+    "from": "B",
+    "to": "C",
+    "why": "tabard fold"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 29,
+    "from": "S",
+    "to": "M",
+    "why": "skirt plate"
+  },
+  {
+    "cell": "P3",
+    "x": 11,
+    "y": 29,
+    "from": "P",
+    "to": "M",
+    "why": "skirt plate"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 30,
+    "from": "s",
+    "to": "M",
+    "why": "skirt plane"
+  },
+  {
+    "cell": "P3",
+    "x": 11,
+    "y": 30,
+    "from": "S",
+    "to": "A",
+    "why": "skirt plane"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 31,
+    "from": "P",
+    "to": "A",
+    "why": "skirt shade"
+  },
+  {
+    "cell": "P3",
+    "x": 11,
+    "y": 31,
+    "from": "G",
+    "to": "A",
+    "why": "skirt shade"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 32,
+    "from": "S",
+    "to": "Y",
+    "why": "skirt rim"
+  },
+  {
+    "cell": "P3",
+    "x": 11,
+    "y": 32,
+    "from": "S",
+    "to": "G",
+    "why": "skirt rim"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 29,
+    "from": "p",
+    "to": "M",
+    "why": "skirt plate"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 29,
+    "from": "o",
+    "to": "M",
+    "why": "skirt plate"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 30,
+    "from": "P",
+    "to": "M",
+    "why": "skirt plane"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 30,
+    "from": "p",
+    "to": "A",
+    "why": "skirt plane"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 31,
+    "from": "M",
+    "to": "A",
+    "why": "skirt shade"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 31,
+    "from": "P",
+    "to": "A",
+    "why": "skirt shade"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 32,
+    "from": "S",
+    "to": "Y",
+    "why": "skirt rim"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 32,
+    "from": "S",
+    "to": "G",
+    "why": "skirt rim"
+  },
+  {
+    "cell": "P3",
+    "x": 9,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P3",
+    "x": 10,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P3",
+    "x": 11,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P3",
+    "x": 19,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P3",
+    "x": 20,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P3",
+    "x": 11,
+    "y": 35,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P3",
+    "x": 17,
+    "y": 35,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P3",
+    "x": 18,
+    "y": 35,
+    "from": "S",
+    "to": "G",
+    "why": "gold cuff material"
+  },
+  {
+    "cell": "P4",
+    "x": 16,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 17,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 18,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 15,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 16,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 17,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 18,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 19,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 20,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 21,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 15,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 16,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 17,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 18,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 19,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 20,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 21,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 22,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 19,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 20,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 21,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 22,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 19,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 20,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 21,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 22,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 23,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 21,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 22,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 23,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 21,
+    "y": 8,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 23,
+    "y": 8,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 23,
+    "y": 10,
+    "from": "M",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 24,
+    "y": 10,
+    "from": "A",
+    "to": "p",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 21,
+    "y": 12,
+    "from": "A",
+    "to": "p",
+    "why": "plume material"
+  },
+  {
+    "cell": "P4",
+    "x": 15,
+    "y": 9,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 15,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 16,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 17,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 7,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 15,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 24,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 9,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 15,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 24,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 9,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 23,
+    "y": 13,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 5,
+    "y": 14,
+    "from": "j",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 14,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 5,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 5,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P4",
+    "x": 15,
+    "y": 10,
+    "from": "H",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P4",
+    "x": 9,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 12,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P4",
+    "x": 6,
+    "y": 12,
+    "from": "G",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P4",
+    "x": 7,
+    "y": 12,
+    "from": "s",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P4",
+    "x": 6,
+    "y": 13,
+    "from": "G",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P4",
+    "x": 7,
+    "y": 13,
+    "from": "s",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 13,
+    "from": "G",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P4",
+    "x": 7,
+    "y": 14,
+    "from": "G",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P4",
+    "x": 7,
+    "y": 15,
+    "from": "G",
+    "to": "H",
+    "why": "side crest separation"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 12,
+    "from": "j",
+    "to": "Y",
+    "why": "profile crest"
+  },
+  {
+    "cell": "P4",
+    "x": 7,
+    "y": 13,
+    "from": "H",
+    "to": "G",
+    "why": "profile crest"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 13,
+    "from": "H",
+    "to": "Y",
+    "why": "profile crest"
+  },
+  {
+    "cell": "P4",
+    "x": 9,
+    "y": 13,
+    "from": "h",
+    "to": "G",
+    "why": "profile crest"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 14,
+    "from": "k",
+    "to": "G",
+    "why": "profile crest"
+  },
+  {
+    "cell": "P4",
+    "x": 7,
+    "y": 16,
+    "from": "G",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 9,
+    "y": 16,
+    "from": "S",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 16,
+    "from": "o",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 16,
+    "from": "h",
+    "to": "S",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 7,
+    "y": 17,
+    "from": "S",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 17,
+    "from": "k",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 9,
+    "y": 17,
+    "from": "Y",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 17,
+    "from": "o",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 17,
+    "from": "H",
+    "to": "S",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 17,
+    "from": "k",
+    "to": "S",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 7,
+    "y": 18,
+    "from": "S",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 18,
+    "from": "k",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 9,
+    "y": 18,
+    "from": "S",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 18,
+    "from": "h",
+    "to": "L",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 18,
+    "from": "o",
+    "to": "S",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 18,
+    "from": "S",
+    "to": "s",
+    "why": "profile face"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 19,
+    "from": "Y",
+    "to": "L",
+    "why": "profile cheek"
+  },
+  {
+    "cell": "P4",
+    "x": 9,
+    "y": 19,
+    "from": "Y",
+    "to": "L",
+    "why": "profile cheek"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 19,
+    "from": "o",
+    "to": "s",
+    "why": "profile cheek"
+  },
+  {
+    "cell": "P4",
+    "x": 9,
+    "y": 20,
+    "from": "Y",
+    "to": "S",
+    "why": "profile chin"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 20,
+    "from": "Y",
+    "to": "S",
+    "why": "profile chin"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 20,
+    "from": "S",
+    "to": "s",
+    "why": "profile chin"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 20,
+    "from": "o",
+    "to": "s",
+    "why": "profile chin"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 17,
+    "from": "L",
+    "to": "k",
+    "why": "single profile eye"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 18,
+    "from": "L",
+    "to": "k",
+    "why": "single profile eye"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 21,
+    "from": "P",
+    "to": "b",
+    "why": "scarf"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 21,
+    "from": "P",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 21,
+    "from": "o",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 22,
+    "from": "F",
+    "to": "B",
+    "why": "scarf"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 22,
+    "from": "W",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 22,
+    "from": "P",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 22,
+    "from": "k",
+    "to": "C",
+    "why": "scarf"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 22,
+    "from": "C",
+    "to": "A",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 22,
+    "from": "C",
+    "to": "M",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 22,
+    "from": "B",
+    "to": "F",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 23,
+    "from": "P",
+    "to": "M",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 23,
+    "from": "S",
+    "to": "F",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 23,
+    "from": "B",
+    "to": "M",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 24,
+    "from": "G",
+    "to": "A",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 24,
+    "from": "o",
+    "to": "M",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 24,
+    "from": "B",
+    "to": "M",
+    "why": "profile shoulder"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 25,
+    "from": "o",
+    "to": "g",
+    "why": "shoulder rim"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 25,
+    "from": "k",
+    "to": "Y",
+    "why": "shoulder rim"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 25,
+    "from": "B",
+    "to": "G",
+    "why": "shoulder rim"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 26,
+    "from": "a",
+    "to": "F",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 26,
+    "from": "k",
+    "to": "M",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 26,
+    "from": "B",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 27,
+    "from": "D",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 27,
+    "from": "H",
+    "to": "A",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 27,
+    "from": "B",
+    "to": "a",
+    "why": "gauntlet"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 28,
+    "from": "o",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 28,
+    "from": "o",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 28,
+    "from": "o",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 29,
+    "from": "k",
+    "to": "L",
+    "why": "fist"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 29,
+    "from": "p",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 29,
+    "from": "D",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 30,
+    "from": "h",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 30,
+    "from": "G",
+    "to": "S",
+    "why": "fist"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 30,
+    "from": "p",
+    "to": "s",
+    "why": "fist"
+  },
+  {
+    "cell": "P4",
+    "x": 16,
+    "y": 23,
+    "from": "B",
+    "to": "C",
+    "why": "cape light fold"
+  },
+  {
+    "cell": "P4",
+    "x": 16,
+    "y": 24,
+    "from": "B",
+    "to": "C",
+    "why": "cape light fold"
+  },
+  {
+    "cell": "P4",
+    "x": 16,
+    "y": 25,
+    "from": "B",
+    "to": "C",
+    "why": "cape light fold"
+  },
+  {
+    "cell": "P4",
+    "x": 16,
+    "y": 26,
+    "from": "B",
+    "to": "C",
+    "why": "cape light fold"
+  },
+  {
+    "cell": "P4",
+    "x": 16,
+    "y": 27,
+    "from": "B",
+    "to": "C",
+    "why": "cape light fold"
+  },
+  {
+    "cell": "P4",
+    "x": 17,
+    "y": 28,
+    "from": "B",
+    "to": "C",
+    "why": "cape light fold"
+  },
+  {
+    "cell": "P4",
+    "x": 17,
+    "y": 29,
+    "from": "B",
+    "to": "C",
+    "why": "cape light fold"
+  },
+  {
+    "cell": "P4",
+    "x": 17,
+    "y": 30,
+    "from": "B",
+    "to": "C",
+    "why": "cape light fold"
+  },
+  {
+    "cell": "P4",
+    "x": 17,
+    "y": 31,
+    "from": "B",
+    "to": "C",
+    "why": "cape light fold"
+  },
+  {
+    "cell": "P4",
+    "x": 17,
+    "y": 32,
+    "from": "B",
+    "to": "C",
+    "why": "cape light fold"
+  },
+  {
+    "cell": "P4",
+    "x": 18,
+    "y": 33,
+    "from": "B",
+    "to": "C",
+    "why": "cape light fold"
+  },
+  {
+    "cell": "P4",
+    "x": 12,
+    "y": 32,
+    "from": "G",
+    "to": "A",
+    "why": "rear skirt rim"
+  },
+  {
+    "cell": "P4",
+    "x": 13,
+    "y": 32,
+    "from": "k",
+    "to": "Y",
+    "why": "rear skirt rim"
+  },
+  {
+    "cell": "P4",
+    "x": 8,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P4",
+    "x": 9,
+    "y": 34,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P4",
+    "x": 11,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P4",
+    "x": 15,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P4",
+    "x": 16,
+    "y": 34,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P4",
+    "x": 9,
+    "y": 35,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 35,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P4",
+    "x": 15,
+    "y": 35,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P4",
+    "x": 16,
+    "y": 35,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P4",
+    "x": 10,
+    "y": 36,
+    "from": "s",
+    "to": "G",
+    "why": "gold cuff material"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 36,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P4",
+    "x": 14,
+    "y": 37,
+    "from": "H",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 2,
+    "from": "M",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 14,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 15,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 16,
+    "y": 2,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 14,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 15,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 16,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 17,
+    "y": 3,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 14,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 15,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 16,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 17,
+    "y": 4,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 14,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 15,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 16,
+    "y": 5,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 14,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 15,
+    "y": 6,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 14,
+    "y": 7,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 8,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 8,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 9,
+    "from": "F",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 9,
+    "from": "M",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 10,
+    "from": "M",
+    "to": "W",
+    "why": "plume material"
+  },
+  {
+    "cell": "P5",
+    "x": 8,
+    "y": 9,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 10,
+    "from": "h",
+    "to": "H",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 11,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 18,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 12,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 22,
+    "y": 15,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 16,
+    "from": "H",
+    "to": "h",
+    "why": "connected hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 11,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 12,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 12,
+    "from": "h",
+    "to": "j",
+    "why": "principal hair strand"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 35,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 35,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 35,
+    "from": "h",
+    "to": "d",
+    "why": "dark greave material"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 36,
+    "from": "s",
+    "to": "G",
+    "why": "gold cuff material"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 36,
+    "from": "s",
+    "to": "G",
+    "why": "gold cuff material"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 12,
+    "from": "h",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 17,
+    "y": 12,
+    "from": "h",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 18,
+    "y": 12,
+    "from": "h",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 12,
+    "from": "h",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 12,
+    "from": "j",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 12,
+    "from": "j",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 13,
+    "from": "h",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 22,
+    "y": 15,
+    "from": "h",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 16,
+    "from": "h",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 16,
+    "from": "h",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 16,
+    "from": "h",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 16,
+    "from": "h",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 16,
+    "from": "h",
+    "to": "H",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 17,
+    "from": "H",
+    "to": "h",
+    "why": "rear hair mass"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 23,
+    "from": "B",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 23,
+    "from": "o",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 24,
+    "from": "B",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 24,
+    "from": "B",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 25,
+    "from": "b",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 25,
+    "from": "B",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 26,
+    "from": "B",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 26,
+    "from": "B",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 27,
+    "from": "B",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 27,
+    "from": "B",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 12,
+    "y": 28,
+    "from": "B",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 19,
+    "y": 28,
+    "from": "B",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 29,
+    "from": "B",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 29,
+    "from": "B",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 30,
+    "from": "B",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 30,
+    "from": "B",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 31,
+    "from": "B",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 31,
+    "from": "B",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 32,
+    "from": "B",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 32,
+    "from": "B",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 33,
+    "from": "B",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 33,
+    "from": "B",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 11,
+    "y": 34,
+    "from": "B",
+    "to": "C",
+    "why": "rear cape fold"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 34,
+    "from": "B",
+    "to": "b",
+    "why": "rear cape shadow"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 22,
+    "from": "B",
+    "to": "C",
+    "why": "cape collar fold"
+  },
+  {
+    "cell": "P5",
+    "x": 16,
+    "y": 22,
+    "from": "B",
+    "to": "C",
+    "why": "cape collar fold"
+  },
+  {
+    "cell": "P5",
+    "x": 13,
+    "y": 23,
+    "from": "B",
+    "to": "b",
+    "why": "cape collar seam"
+  },
+  {
+    "cell": "P5",
+    "x": 18,
+    "y": 23,
+    "from": "B",
+    "to": "b",
+    "why": "cape collar seam"
+  },
+  {
+    "cell": "P5",
+    "x": 8,
+    "y": 22,
+    "from": "o",
+    "to": "A",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 22,
+    "from": "P",
+    "to": "M",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 22,
+    "from": "W",
+    "to": "F",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 23,
+    "from": "P",
+    "to": "F",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 23,
+    "from": "S",
+    "to": "M",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 8,
+    "y": 24,
+    "from": "S",
+    "to": "A",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 24,
+    "from": "G",
+    "to": "M",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 24,
+    "from": "G",
+    "to": "M",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 8,
+    "y": 25,
+    "from": "o",
+    "to": "g",
+    "why": "rear shoulder rim"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 25,
+    "from": "k",
+    "to": "Y",
+    "why": "rear shoulder rim"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 25,
+    "from": "k",
+    "to": "G",
+    "why": "rear shoulder rim"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 26,
+    "from": "A",
+    "to": "M",
+    "why": "rear gauntlet"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 26,
+    "from": "k",
+    "to": "A",
+    "why": "rear gauntlet"
+  },
+  {
+    "cell": "P5",
+    "x": 8,
+    "y": 27,
+    "from": "D",
+    "to": "A",
+    "why": "rear gauntlet"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 27,
+    "from": "D",
+    "to": "A",
+    "why": "rear gauntlet"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 27,
+    "from": "b",
+    "to": "a",
+    "why": "rear gauntlet"
+  },
+  {
+    "cell": "P5",
+    "x": 8,
+    "y": 28,
+    "from": "S",
+    "to": "L",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 28,
+    "from": "k",
+    "to": "L",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 28,
+    "from": "B",
+    "to": "S",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 8,
+    "y": 29,
+    "from": "S",
+    "to": "L",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 29,
+    "from": "B",
+    "to": "S",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 29,
+    "from": "B",
+    "to": "S",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 8,
+    "y": 30,
+    "from": "k",
+    "to": "S",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 9,
+    "y": 30,
+    "from": "B",
+    "to": "S",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 10,
+    "y": 30,
+    "from": "B",
+    "to": "s",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 22,
+    "from": "M",
+    "to": "A",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 22,
+    "from": "P",
+    "to": "M",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 22,
+    "y": 22,
+    "from": "o",
+    "to": "F",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 23,
+    "from": "S",
+    "to": "M",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 23,
+    "from": "P",
+    "to": "F",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 22,
+    "y": 23,
+    "from": "P",
+    "to": "M",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 24,
+    "from": "k",
+    "to": "A",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 24,
+    "from": "S",
+    "to": "M",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 22,
+    "y": 24,
+    "from": "G",
+    "to": "M",
+    "why": "rear shoulder"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 25,
+    "from": "o",
+    "to": "g",
+    "why": "rear shoulder rim"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 25,
+    "from": "k",
+    "to": "Y",
+    "why": "rear shoulder rim"
+  },
+  {
+    "cell": "P5",
+    "x": 22,
+    "y": 25,
+    "from": "k",
+    "to": "G",
+    "why": "rear shoulder rim"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 26,
+    "from": "B",
+    "to": "F",
+    "why": "rear gauntlet"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 26,
+    "from": "k",
+    "to": "M",
+    "why": "rear gauntlet"
+  },
+  {
+    "cell": "P5",
+    "x": 22,
+    "y": 26,
+    "from": "W",
+    "to": "A",
+    "why": "rear gauntlet"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 27,
+    "from": "B",
+    "to": "A",
+    "why": "rear gauntlet"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 27,
+    "from": "k",
+    "to": "A",
+    "why": "rear gauntlet"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 28,
+    "from": "B",
+    "to": "L",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 28,
+    "from": "B",
+    "to": "L",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 29,
+    "from": "b",
+    "to": "L",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 29,
+    "from": "B",
+    "to": "S",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 22,
+    "y": 29,
+    "from": "k",
+    "to": "S",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 20,
+    "y": 30,
+    "from": "b",
+    "to": "S",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 21,
+    "y": 30,
+    "from": "B",
+    "to": "S",
+    "why": "rear fist"
+  },
+  {
+    "cell": "P5",
+    "x": 22,
+    "y": 30,
+    "from": "o",
+    "to": "s",
+    "why": "rear fist"
+  }
+]
