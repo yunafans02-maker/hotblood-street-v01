@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>趙雲 · 站立重繪 v3</title>
+<style>
+*{box-sizing:border-box}body{font:15px/1.6 system-ui,-apple-system,sans-serif;color:#26354a;background:#fff;max-width:760px;margin:0 auto;padding:16px}h1{font-size:23px;margin:0 0 4px}h2{font-size:18px}h3{font-size:16px;margin:8px 0}p{margin:8px 0}a{color:#315e9c}button{font:inherit;min-height:44px;padding:8px 12px;background:#fff;border:1px solid #becbdd;border-radius:6px;color:#315e9c;touch-action:manipulation}.links{display:flex;flex-wrap:wrap;gap:12px;margin:12px 0}.zoom{display:flex;flex-wrap:wrap;gap:8px;background:#fffe;padding:8px 0;position:sticky;top:0;z-index:1}.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.pair figure{margin:0;text-align:center}figcaption{font-size:12px;color:#5b6d86}.stage{min-height:168px;display:grid;place-items:center}img{image-rendering:pixelated;max-width:100%;height:auto}.native{width:calc(32px * var(--scale,4));height:calc(40px * var(--scale,4));max-width:none}section{padding:12px 0;border-bottom:1px solid #e0e6ef}details{margin:20px 0;font-size:13px}summary{cursor:pointer;min-height:44px}footer{font-size:12px;color:#5b6d86;padding:16px 0}@media(max-width:650px){.part .pair{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<h1>趙雲 · 站立重繪 v3</h1>
+<p>左：原版或上一版；右：本次重繪。同一尺寸比較。</p>
+<nav class="links"><a href="/?candidate=idle-v3">八方向角色預覽 ↗</a><a href="reference.jpg">原始四視圖 ↗</a></nav>
+<div class="zoom"><button id="baseline" aria-pressed="false">左欄：現用原版</button><button id="one">1×</button><button id="four">4×</button><span id="scale">目前4×</span></div>
+<div id="views"></div>
+<h2>四部位 · 左原版／右重繪</h2><div id="regions"></div>
+<details><summary>本輪修改及驗證範圍</summary>
+<p>重新畫過五個方向的頭臉、圓肩甲、胸甲藍色記號、腰扣、分開的裙甲、手腳及披風。後斜角顯示後腦與披風，沒有正面雙眼。</p>
+<p>這是32×40原生格位內的重新設計，人物高度仍為38像素。沒有增加原生解析度，大尺寸生成草稿不是遊戲圖集。4×只是Nearest顯示。</p>
+<p>候選圖集為256×488，只更新P1–P5；其餘動畫及現用圖集保留。Idle／Rotate可審閱，Walk尚未重畫，等待此階段美術確認。</p>
+<p>官方checker及15項自動化測試通過。完整候選55色及98個原有空格為警告；所需83格均非空。真實iPhone Safari未驗證。</p>
+<a href="/candidates/zhaoyun-sheet-v3.png">候選圖集 PNG</a> · <a href="check.json">圖集檢查</a> · <a href="../idle-v2/index.html">上一版v2</a>
+</details>
+<footer>尚待美術驗收。<a href="v2-v3-mobile.png">上一版／重繪整張對照</a> · <a href="four-regions-before-after.png">四部位對照</a></footer>
+<script>
+let previous=false;
+for(const [id,name]of [['P2','左前斜角'],['P3','正面'],['P1','左側'],['P4','左後斜角'],['P5','背面']]){
+ const s=document.createElement('section');s.innerHTML=`<h3>${name}</h3><div class="pair">${['before','after'].map(v=>`<figure><div class="stage"><a href="${id}-${v}.png"><img class="native" data-version="${v}" data-cell="${id}" src="${id}-${v}.png" alt="${name} ${v==='before'?'原版':'重繪'}"></a></div><figcaption>${v==='before'?'現用原版':'本次重繪v3'}</figcaption></figure>`).join('')}</div>`;document.querySelector('#views').append(s);
+}
+document.querySelector('#baseline').onclick=()=>{previous=!previous;document.querySelector('#baseline').textContent=previous?'左欄：上一版v2':'左欄：現用原版';document.querySelector('#baseline').setAttribute('aria-pressed',String(previous));document.querySelectorAll('.native[data-version=before]').forEach(img=>{img.src=previous?`../idle-v2/${img.dataset.cell}-after.png`:`${img.dataset.cell}-before.png`;img.parentElement.href=img.src;img.closest('figure').querySelector('figcaption').textContent=previous?'上一版v2':'現用原版';});};
+for(const [file,name]of [['face','面部'],['hair','頭髮及額飾'],['chest','胸甲及肩甲'],['waist-boots','腰甲及靴子']]){const s=document.createElement('section');s.className='part';s.innerHTML=`<h3>${name}</h3><div class="pair">${['before','after'].map(v=>`<figure><a href="${file}-${v}.png"><img src="${file}-${v}.png" alt="${name} ${v}"></a><figcaption>${v==='before'?'現用原版':'本次重繪v3'}</figcaption></figure>`).join('')}</div>`;document.querySelector('#regions').append(s);}
+for(const [id,n]of [['one',1],['four',4]])document.querySelector('#'+id).onclick=()=>{document.body.style.setProperty('--scale',n);document.querySelector('#scale').textContent='目前'+n+'×';};
+</script>
+</body></html>

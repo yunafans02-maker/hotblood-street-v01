@@ -12,16 +12,20 @@ start().catch(error => {
 });
 async function start() {
   const $ = selector => document.querySelector(selector);
-  const candidateReview = new URLSearchParams(location.search).get('candidate') === 'idle-v2';
+  const requestedCandidate = new URLSearchParams(location.search).get('candidate');
+  const candidateVersion = ['idle-v2', 'idle-v3'].includes(requestedCandidate) ? requestedCandidate : null;
+  const candidateReview = candidateVersion !== null;
+  const candidateSheet = candidateVersion === 'idle-v3' ? '/candidates/zhaoyun-sheet-v3.png' : '/candidates/zhaoyun-sheet-v2.png';
+  const candidateGallery = `/candidates/${candidateVersion}/index.html`;
   const visibleActions = candidateReview ? ACTIONS.filter(([name]) => name === 'Idle' || name === 'Rotate') : ACTIONS;
   if (candidateReview) {
-    $('header p').textContent = '第一階段 · 站立畫質候選 · 待審閱';
+    $('header p').textContent = `第一階段 · ${candidateVersion === 'idle-v3' ? '重新繪製 v3' : '舊候選 v2'} · 待審閱`;
     $('#preview-link').textContent = 'Before / After ↗';
     $('.hint').textContent = '此頁只檢視站立與轉身候選；Walk 與其他動作尚未整合。';
     const links = document.querySelectorAll('footer a');
-    links[0].href = '/candidates/zhaoyun-sheet-v2.png';
-    links[1].href = '/candidates/idle-v2/index.html'; links[1].textContent = 'Before / After ↗';
-    links[2].href = '/candidates/idle-v2/check.json'; links[2].textContent = '圖集檢查 ↗';
+    links[0].href = candidateSheet;
+    links[1].href = candidateGallery; links[1].textContent = 'Before / After ↗';
+    links[2].href = `/candidates/${candidateVersion}/check.json`; links[2].textContent = '圖集檢查 ↗';
   }
   const canvas = $('#stage'), viewport = $('#viewport');
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: false, alpha: false });
@@ -31,7 +35,7 @@ async function start() {
   const scene = new THREE.Scene();
   const camera = new THREE.OrthographicCamera(-40,40,40,-40,1,2000);
   const atlas = createAtlas(unarmedData(official));
-  const sheet = prepareSheet(await new THREE.TextureLoader().loadAsync(candidateReview ? '/candidates/zhaoyun-sheet-v2.png' : '/zhaoyun-sheet.png'));
+  const sheet = prepareSheet(await new THREE.TextureLoader().loadAsync(candidateReview ? candidateSheet : '/zhaoyun-sheet.png'));
   // Source art uses square pixels. One UNIFORM scale for every action and part.
   const unit = createTacticsSprite(atlas,sheet,{ facing:'SE',animation:'Idle',scaleX:1,scaleY:1 });
   unit.group.position.set(0,unit.standHeight,0);
@@ -50,7 +54,7 @@ async function start() {
     if (!visibleActions.some(a=>a[0]===name)) throw new Error('Unsupported action');
     selected=name; $('#animation').value=name;
     unit.play(name,elapsed,playbackOptions(name));
-    $('#preview-link').href=candidateReview ? '/candidates/idle-v2/index.html' : `/previews/${name.toLowerCase().replaceAll(' ','-')}.gif`;
+    $('#preview-link').href=candidateReview ? candidateGallery : `/previews/${name.toLowerCase().replaceAll(' ','-')}.gif`;
     render();
   }
   function setView(value) {
@@ -80,7 +84,7 @@ async function start() {
   $('#smaller').onclick=()=>setZoom(zoom-.25);$('#larger').onclick=()=>setZoom(zoom+.25);
   $('#previous').onclick=()=>setView(view-1);$('#next').onclick=()=>setView(view+1);
   function exportPng() {const out=document.createElement('canvas');out.width=240;out.height=216;const ctx=out.getContext('2d');ctx.imageSmoothingEnabled=false;drawPose(ctx,sheet.image,unit.player.pose,120,102,3);return out;}
-  $('#export').onclick=()=>{const a=document.createElement('a');a.href=exportPng().toDataURL('image/png');a.download=`zhaoyun-${candidateReview?'idle-v2-':''}${unit.player.animation.name.toLowerCase().replaceAll(' ','-')}.png`;a.click();};
+  $('#export').onclick=()=>{const a=document.createElement('a');a.href=exportPng().toDataURL('image/png');a.download=`zhaoyun-${candidateReview?candidateVersion+'-':''}${unit.player.animation.name.toLowerCase().replaceAll(' ','-')}.png`;a.click();};
   document.addEventListener('visibilitychange',()=>{lastMs=null;});
   new ResizeObserver(() => resize()).observe(viewport);
   window.addEventListener('resize', () => resize());
@@ -95,7 +99,7 @@ async function start() {
     atlas,unit,sheet,scene,camera,renderer,select,setView,setZoom,setPlaying,setSpeed,exportPng,
     at(name,v,ticks,{chain=false}={}) {testClock=true;elapsed=0;setView(v);unit.play(name,0,chain?playbackOptions(name):{});elapsed=ticks/60;return JSON.parse(JSON.stringify(render()));},
     resume(){testClock=false;lastMs=null;},
-    state:()=>({view,zoom,speed,playing,elapsed,selected,candidateReview,animation:unit.player.animation.name,frame:unit.player.pose.shp,origin:unit.group.position.toArray(),meshes:unit.group.children.length,sceneChildren:scene.children.length,shadow:renderer.shadowMap.enabled}),
+    state:()=>({view,zoom,speed,playing,elapsed,selected,candidateReview,candidateVersion,animation:unit.player.animation.name,frame:unit.player.pose.shp,origin:unit.group.position.toArray(),meshes:unit.group.children.length,sceneChildren:scene.children.length,shadow:renderer.shadowMap.enabled}),
     pixelViewport:()=>pixelViewport, setPixelScale:value=>resize(value),
     expected:(name,v,t)=>poseAt(atlas,findAnimation(atlas,name),v,t),
   };
