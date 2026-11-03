@@ -1,0 +1,1826 @@
+{
+  "baselineCommit": "c8bf2adbfaa53b5c39081a969c7ddd2028b0e30e",
+  "backup": "backup-before-zhaoyun-hd-walk-20261103",
+  "originalSource": {
+    "size": [
+      125,
+      196
+    ],
+    "occupiedBounds": [
+      0,
+      0,
+      125,
+      196
+    ],
+    "opaquePixels": 15160,
+    "opaqueColors": 203
+  },
+  "sheetCellP2": {
+    "size": [
+      32,
+      40
+    ],
+    "occupiedBounds": [
+      4,
+      1,
+      28,
+      39
+    ],
+    "opaquePixels": 565,
+    "opaqueColors": 29
+  },
+  "fullSheet": {
+    "size": [
+      256,
+      488
+    ],
+    "occupiedBounds": [
+      4,
+      1,
+      248,
+      474
+    ],
+    "opaquePixels": 17690,
+    "opaqueColors": 32
+  },
+  "walkHeadSource": {
+    "size": [
+      121,
+      106
+    ],
+    "occupiedBounds": [
+      0,
+      0,
+      121,
+      106
+    ],
+    "opaquePixels": 8230,
+    "opaqueColors": 174
+  },
+  "walkHeadPacked": [
+    24,
+    21
+  ],
+  "walkHeadResizes": [
+    [
+      121,
+      106
+    ],
+    [
+      23,
+      20
+    ],
+    [
+      24,
+      21
+    ]
+  ],
+  "firstWalkBodySource": {
+    "size": [
+      252,
+      276
+    ],
+    "occupiedBounds": [
+      0,
+      0,
+      252,
+      276
+    ],
+    "opaquePixels": 39857,
+    "opaqueColors": 177
+  },
+  "walkTorsoPackedHeights": [
+    18,
+    19,
+    20,
+    19,
+    18
+  ],
+  "regions": [
+    {
+      "name": "Face",
+      "bounds": [
+        7,
+        15,
+        20,
+        22
+      ],
+      "size": [
+        13,
+        7
+      ],
+      "occupiedBounds": [
+        0,
+        0,
+        13,
+        7
+      ],
+      "opaquePixels": 82,
+      "opaqueColors": 21
+    },
+    {
+      "name": "Hair + crest",
+      "bounds": [
+        4,
+        1,
+        28,
+        16
+      ],
+      "size": [
+        24,
+        15
+      ],
+      "occupiedBounds": [
+        1,
+        0,
+        24,
+        15
+      ],
+      "opaquePixels": 225,
+      "opaqueColors": 22
+    },
+    {
+      "name": "Chest + shoulders",
+      "bounds": [
+        7,
+        21,
+        25,
+        28
+      ],
+      "size": [
+        18,
+        7
+      ],
+      "occupiedBounds": [
+        0,
+        0,
+        14,
+        7
+      ],
+      "opaquePixels": 88,
+      "opaqueColors": 24
+    },
+    {
+      "name": "Waist + boots",
+      "bounds": [
+        6,
+        27,
+        27,
+        39
+      ],
+      "size": [
+        21,
+        12
+      ],
+      "occupiedBounds": [
+        0,
+        0,
+        20,
+        12
+      ],
+      "opaquePixels": 178,
+      "opaqueColors": 28
+    }
+  ],
+  "render": {
+    "comparisons": [
+      {
+        "name": "Idle",
+        "view": 0,
+        "tick": 0,
+        "shp": 3,
+        "differentPixels": 0
+      },
+      {
+        "name": "Idle",
+        "view": 1,
+        "tick": 0,
+        "shp": 2,
+        "differentPixels": 0
+      },
+      {
+        "name": "Idle",
+        "view": 2,
+        "tick": 0,
+        "shp": 1,
+        "differentPixels": 0
+      },
+      {
+        "name": "Idle",
+        "view": 3,
+        "tick": 0,
+        "shp": 8,
+        "differentPixels": 0
+      },
+      {
+        "name": "Idle",
+        "view": 4,
+        "tick": 0,
+        "shp": 7,
+        "differentPixels": 0
+      },
+      {
+        "name": "Idle",
+        "view": 5,
+        "tick": 0,
+        "shp": 6,
+        "differentPixels": 0
+      },
+      {
+        "name": "Idle",
+        "view": 6,
+        "tick": 0,
+        "shp": 5,
+        "differentPixels": 0
+      },
+      {
+        "name": "Idle",
+        "view": 7,
+        "tick": 0,
+        "shp": 4,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 0,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 0,
+        "tick": 6.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 0,
+        "tick": 14.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 0,
+        "tick": 24.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 0,
+        "tick": 32.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 0,
+        "tick": 38.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 0,
+        "tick": 46.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 0,
+        "tick": 56.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 1,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 1,
+        "tick": 6.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 1,
+        "tick": 14.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 1,
+        "tick": 24.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 1,
+        "tick": 32.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 1,
+        "tick": 38.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 1,
+        "tick": 46.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 1,
+        "tick": 56.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 2,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 2,
+        "tick": 6.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 2,
+        "tick": 14.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 2,
+        "tick": 24.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 2,
+        "tick": 32.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 2,
+        "tick": 38.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 2,
+        "tick": 46.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 2,
+        "tick": 56.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 3,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 3,
+        "tick": 6.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 3,
+        "tick": 14.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 3,
+        "tick": 24.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 3,
+        "tick": 32.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 3,
+        "tick": 38.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 3,
+        "tick": 46.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 3,
+        "tick": 56.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 4,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 4,
+        "tick": 6.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 4,
+        "tick": 14.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 4,
+        "tick": 24.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 4,
+        "tick": 32.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 4,
+        "tick": 38.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 4,
+        "tick": 46.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 4,
+        "tick": 56.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 5,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 5,
+        "tick": 6.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 5,
+        "tick": 14.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 5,
+        "tick": 24.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 5,
+        "tick": 32.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 5,
+        "tick": 38.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 5,
+        "tick": 46.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 5,
+        "tick": 56.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 6,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 6,
+        "tick": 6.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 6,
+        "tick": 14.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 6,
+        "tick": 24.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 6,
+        "tick": 32.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 6,
+        "tick": 38.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 6,
+        "tick": 46.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 6,
+        "tick": 56.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 7,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 7,
+        "tick": 6.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 7,
+        "tick": 14.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 7,
+        "tick": 24.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 7,
+        "tick": 32.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 7,
+        "tick": 38.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 7,
+        "tick": 46.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk",
+        "view": 7,
+        "tick": 56.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 0,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 0,
+        "tick": 10.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 0,
+        "tick": 22.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 0,
+        "tick": 36.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 0,
+        "tick": 48.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 0,
+        "tick": 58.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 0,
+        "tick": 70.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 0,
+        "tick": 84.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 1,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 1,
+        "tick": 10.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 1,
+        "tick": 22.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 1,
+        "tick": 36.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 1,
+        "tick": 48.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 1,
+        "tick": 58.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 1,
+        "tick": 70.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 1,
+        "tick": 84.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 2,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 2,
+        "tick": 10.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 2,
+        "tick": 22.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 2,
+        "tick": 36.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 2,
+        "tick": 48.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 2,
+        "tick": 58.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 2,
+        "tick": 70.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 2,
+        "tick": 84.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 3,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 3,
+        "tick": 10.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 3,
+        "tick": 22.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 3,
+        "tick": 36.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 3,
+        "tick": 48.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 3,
+        "tick": 58.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 3,
+        "tick": 70.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 3,
+        "tick": 84.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 4,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 4,
+        "tick": 10.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 4,
+        "tick": 22.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 4,
+        "tick": 36.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 4,
+        "tick": 48.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 4,
+        "tick": 58.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 4,
+        "tick": 70.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 4,
+        "tick": 84.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 5,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 5,
+        "tick": 10.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 5,
+        "tick": 22.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 5,
+        "tick": 36.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 5,
+        "tick": 48.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 5,
+        "tick": 58.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 5,
+        "tick": 70.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 5,
+        "tick": 84.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 6,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 6,
+        "tick": 10.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 6,
+        "tick": 22.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 6,
+        "tick": 36.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 6,
+        "tick": 48.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 6,
+        "tick": 58.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 6,
+        "tick": 70.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 6,
+        "tick": 84.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 7,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 7,
+        "tick": 10.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 7,
+        "tick": 22.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 7,
+        "tick": 36.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 7,
+        "tick": 48.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 7,
+        "tick": 58.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 7,
+        "tick": 70.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Slow",
+        "view": 7,
+        "tick": 84.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 0,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 0,
+        "tick": 2.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 0,
+        "tick": 6.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 0,
+        "tick": 12.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 0,
+        "tick": 16.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 0,
+        "tick": 18.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 0,
+        "tick": 22.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 0,
+        "tick": 28.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 1,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 1,
+        "tick": 2.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 1,
+        "tick": 6.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 1,
+        "tick": 12.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 1,
+        "tick": 16.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 1,
+        "tick": 18.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 1,
+        "tick": 22.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 1,
+        "tick": 28.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 2,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 2,
+        "tick": 2.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 2,
+        "tick": 6.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 2,
+        "tick": 12.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 2,
+        "tick": 16.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 2,
+        "tick": 18.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 2,
+        "tick": 22.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 2,
+        "tick": 28.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 3,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 3,
+        "tick": 2.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 3,
+        "tick": 6.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 3,
+        "tick": 12.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 3,
+        "tick": 16.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 3,
+        "tick": 18.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 3,
+        "tick": 22.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 3,
+        "tick": 28.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 4,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 4,
+        "tick": 2.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 4,
+        "tick": 6.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 4,
+        "tick": 12.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 4,
+        "tick": 16.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 4,
+        "tick": 18.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 4,
+        "tick": 22.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 4,
+        "tick": 28.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 5,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 5,
+        "tick": 2.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 5,
+        "tick": 6.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 5,
+        "tick": 12.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 5,
+        "tick": 16.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 5,
+        "tick": 18.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 5,
+        "tick": 22.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 5,
+        "tick": 28.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 6,
+        "tick": 0.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 6,
+        "tick": 2.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 6,
+        "tick": 6.1,
+        "shp": 14,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 6,
+        "tick": 12.1,
+        "shp": 15,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 6,
+        "tick": 16.1,
+        "shp": 16,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 6,
+        "tick": 18.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 6,
+        "tick": 22.1,
+        "shp": 18,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 6,
+        "tick": 28.1,
+        "shp": 17,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 7,
+        "tick": 0.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 7,
+        "tick": 2.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 7,
+        "tick": 6.1,
+        "shp": 9,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 7,
+        "tick": 12.1,
+        "shp": 10,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 7,
+        "tick": 16.1,
+        "shp": 11,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 7,
+        "tick": 18.1,
+        "shp": 12,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 7,
+        "tick": 22.1,
+        "shp": 13,
+        "differentPixels": 0
+      },
+      {
+        "name": "Walk Fast",
+        "view": 7,
+        "tick": 28.1,
+        "shp": 12,
+        "differentPixels": 0
+      }
+    ],
+    "renderer": {
+      "buffer": [
+        1000,
+        500
+      ],
+      "dpr": 1,
+      "texelPixels": 8,
+      "mag": 1003,
+      "min": 1003,
+      "mips": false,
+      "antialias": false,
+      "atlasTextureSame": true
+    }
+  },
+  "officialDocuments": [
+    {
+      "file": "SKILL.md",
+      "bytes": 12644,
+      "sha256": "df8f5b14249b59507d0b2101eb8d1b1c3c0804c90290dd22a2f408d556c83056"
+    },
+    {
+      "file": "references/own-sheet.md",
+      "bytes": 4122,
+      "sha256": "e254dcfb0dc1b0dae0ecb3623691f398cf337863887cf877bc1875c3563b4298"
+    },
+    {
+      "file": "references/animations.md",
+      "bytes": 9585,
+      "sha256": "025c0f73df39d95539c98af8007523bc4051dd8d4123b8c5034b5f38cd5613b7"
+    },
+    {
+      "file": "references/rebuild-animations.md",
+      "bytes": 44763,
+      "sha256": "ff31e7bd5c7c33f10b47d152400fcaa1aa12a8731565087c52f0857f36c3bbd4"
+    },
+    {
+      "file": "references/threejs.md",
+      "bytes": 16236,
+      "sha256": "e2f0bf64138e1eebd751a2e25e0852e9e3ea9d65d7febc03d6274fdcf650c364"
+    },
+    {
+      "file": "references/troubleshooting.md",
+      "bytes": 7195,
+      "sha256": "53a42c6dc2dd5d080f182f0da74c39b4811e9485cdfdea00cb132a5bca05198a"
+    }
+  ],
+  "sequences": {
+    "Walk": {
+      "front": {
+        "seq": 6,
+        "raw": 6,
+        "name": "Walk Fwd",
+        "loop": true,
+        "frames": [
+          11,
+          10,
+          9,
+          10,
+          11,
+          12,
+          13,
+          12
+        ],
+        "ticks": [
+          6,
+          8,
+          10,
+          8,
+          6,
+          8,
+          10,
+          8
+        ]
+      },
+      "back": {
+        "seq": 7,
+        "raw": 7,
+        "name": "Walk Bck",
+        "loop": true,
+        "frames": [
+          16,
+          15,
+          14,
+          15,
+          16,
+          17,
+          18,
+          17
+        ],
+        "ticks": [
+          6,
+          8,
+          10,
+          8,
+          6,
+          8,
+          10,
+          8
+        ]
+      }
+    },
+    "Walk Fast": {
+      "front": {
+        "seq": 8,
+        "raw": 8,
+        "name": "Walk Fwd Fast",
+        "loop": true,
+        "frames": [
+          11,
+          10,
+          9,
+          10,
+          11,
+          12,
+          13,
+          12
+        ],
+        "ticks": [
+          2,
+          4,
+          6,
+          4,
+          2,
+          4,
+          6,
+          4
+        ]
+      },
+      "back": {
+        "seq": 9,
+        "raw": 9,
+        "name": "Walk Bck Fast",
+        "loop": true,
+        "frames": [
+          16,
+          15,
+          14,
+          15,
+          16,
+          17,
+          18,
+          17
+        ],
+        "ticks": [
+          2,
+          4,
+          6,
+          4,
+          2,
+          4,
+          6,
+          4
+        ]
+      }
+    },
+    "Walk Slow": {
+      "front": {
+        "seq": 10,
+        "raw": 10,
+        "name": "Walk Fwd Slow",
+        "loop": true,
+        "frames": [
+          11,
+          10,
+          9,
+          10,
+          11,
+          12,
+          13,
+          12
+        ],
+        "ticks": [
+          10,
+          12,
+          14,
+          12,
+          10,
+          12,
+          14,
+          12
+        ]
+      },
+      "back": {
+        "seq": 11,
+        "raw": 11,
+        "name": "Walk Bck Slow",
+        "loop": true,
+        "frames": [
+          16,
+          15,
+          14,
+          15,
+          16,
+          17,
+          18,
+          17
+        ],
+        "ticks": [
+          10,
+          12,
+          14,
+          12,
+          10,
+          12,
+          14,
+          12
+        ]
+      }
+    }
+  },
+  "filesSha256": {
+    "src/pixel-viewport.mjs": "a01676a229fe0ceef080c171776cdba3f9ae57d30bf1f7687c9a3d0ab9162a27",
+    "src/style.css": "1de7a04ca0a253ec027d6bc14a404f020e7bfc1d4cc0886490911bac2301cbab",
+    "src/main.js": "6694be06cd342158b19c27cba7d760d08ea6c4e9c71541e072e03439760c30d1",
+    "src/character/unarmed.mjs": "ea86ea3d99da829037c64614315a3f0ba3bfd3cff834efa867a0e5d12f649307",
+    "src/character/unarmed-art.json": "19dd546a8b608459cb6685a54cee197fe7a20a45800d280d2fa3783efc7b35e9",
+    "src/tactics-sprite/tactics-sprite-data.json": "75b92175309400faae9cfb28f759359a286c739e76c81ddb1b581fe203c611ff",
+    "src/tactics-sprite/tactics-sprite.mjs": "224ce37e8736a1fab84bf39682765f187a88a416bf48b1e6265558fe19ccbebd",
+    "src/tactics-sprite/sheet-template.svg": "30756317bf8ca4b4df5e84fdf76d22b1db880ac68db0b5d61d5b1240c492c1ac",
+    "src/tactics-sprite/NOTICE.md": "c01fa4cb4bf3d21162fe6993b36534fca390a59c054cb1ef57d0e1d81dc14766",
+    "src/tactics-sprite/tactics-sprite-three.mjs": "f1aa87dca1e490e6b0eb3fbefcf2d45120767c7bd4b8b3aa79cf4732431baa1d",
+    "src/tactics-sprite/check-sheet.mjs": "5c04b7173399d2eeabfdbd1e5bab9ca1618bbf4b9524cba34275bcaabe3790b7",
+    "references/zhaoyun/SOURCE.json": "fd26b4b8b56f5569c65eb38e5ca14e043a7e7158037cb9de670f3cf57cc63eb7",
+    "references/zhaoyun/missing-views.png": "7b4bc2d5a8b6d686e0eef13001685f49691a00cba15ee0963d659ac0606e1f40",
+    "references/zhaoyun/zhaoyun_four_views_reference.jpg": "22d8da270778330667510666dc34f15f673ef3cc16ea51229c0fabc0bf1fe1e8",
+    "references/zhaoyun/four-views-cleanup.png": "c2f1b6d925bf9e205657bdf846ba0f28e8ad25d948f50dc21db9c7a8a505c353",
+    "references/zhaoyun/left-rear.png": "6459494cd28bd45ba37e4b0af3ee3259b1fd7c055b6897f5d02f94521ce883c6",
+    "references/zhaoyun/unarmed/back-attack-source.png": "43a5e3d96b54c33cb5ed3a2b6507b57a2bef1946123af0c310063899f162f0bc",
+    "references/zhaoyun/unarmed/required.json": "ffe962f55736f92fe89666e662c5ecc1e443336ad19f127d94994dce88e4e0f3",
+    "references/zhaoyun/unarmed/reaction-source.png": "ad83e6173bb436cbd57243876f3e5ce1bef2137b473fd3e4ff610336a00e0a04",
+    "references/zhaoyun/unarmed/parts-source.png": "ad4fb70947d1072760efa5b8191509d2c48c90f02f153cb8648a8d706e6dbc0b",
+    "references/zhaoyun/unarmed/body-source.png": "e05bf8ab02d5ca4dbeb7e02f7563b52e04a1e41528d1f7fdcfead06754ee282d",
+    "references/zhaoyun/unarmed/layout-anchors.json": "5ab057bb50ad59dab60a9a9cd691a816f7e9ecf7ee1d43af53a284422b1da55d",
+    "public/zhaoyun-four-view-comparison.png": "1e4d04f7de0f14619dfea380767746d1b81f78ebcaf9c3f12e27bd4729641a79",
+    "public/zhaoyun-preview-native.png": "905eb22a509920e4c85579f22036b28feadc4ccfdae45639c700e53d7eb664a2",
+    "public/zhaoyun-preview.png": "c9c2c8c7076baa2019f82b397df618c1a3f1793b3653cd58aa71b50075cb84d2",
+    "public/zhaoyun-sheet.png": "27b5b8456c2b2702d43214a0636051f6ae74901be9764f0f7552525a57309871"
+  }
+}
