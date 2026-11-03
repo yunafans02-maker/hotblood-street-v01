@@ -1,0 +1,193 @@
+{
+  "phase": "standing-art-candidate-only",
+  "approvedArt": false,
+  "requiredReview": "User art approval before Walk changes",
+  "changedCells": [
+    {
+      "id": "P1",
+      "changedPixels": 599
+    },
+    {
+      "id": "P2",
+      "changedPixels": 679
+    },
+    {
+      "id": "P3",
+      "changedPixels": 618
+    },
+    {
+      "id": "P4",
+      "changedPixels": 670
+    },
+    {
+      "id": "P5",
+      "changedPixels": 620
+    }
+  ],
+  "nonStandingCellsUnchanged": true,
+  "originalSheetSha256": "27b5b8456c2b2702d43214a0636051f6ae74901be9764f0f7552525a57309871",
+  "candidateSheetSha256": "37458a8e7dde719750e27a88935c351a80b0a134b1f7d01ef2fc75bd93f80c42",
+  "candidatePalette": {
+    "outline": {
+      "o": "#211c28"
+    },
+    "hair": {
+      "h": "#34242d",
+      "H": "#5b3839",
+      "j": "#855448",
+      "J": "#aa7160"
+    },
+    "plume": {
+      "p": "#8b7e8f",
+      "P": "#c3b3b9",
+      "W": "#efe5d9"
+    },
+    "skin": {
+      "s": "#b87855",
+      "S": "#efb983",
+      "L": "#ffdab0"
+    },
+    "gold": {
+      "g": "#8f5e2d",
+      "G": "#d7a548",
+      "Y": "#ffe2a0"
+    },
+    "silver": {
+      "a": "#59576f",
+      "A": "#9792a8",
+      "M": "#c9c7d2",
+      "F": "#f0e9e2"
+    },
+    "blue": {
+      "b": "#101f4c",
+      "B": "#24458a",
+      "C": "#4b73bd"
+    },
+    "greaves": {
+      "d": "#292732",
+      "D": "#4a4658"
+    },
+    "eyes": {
+      "k": "#100f17"
+    }
+  },
+  "nativeColorsUsed": 23,
+  "standingHeight": 38,
+  "official": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      {
+        "code": "empty-cells",
+        "message": "98 cells have no pixels, so the frames that draw them lose those tiles.",
+        "count": 98
+      },
+      {
+        "code": "many-colors",
+        "message": "55 colors. A TYPE1 sheet has at most 15 and a transparent entry; more is fine in a browser and off-model for the game.",
+        "count": 55
+      }
+    ],
+    "colors": 55,
+    "emptyCells": [
+      "EF1",
+      "EF2",
+      "EFL3",
+      "EFR3",
+      "EFL4",
+      "EFR4",
+      "EFL5",
+      "EFR5",
+      "HD1",
+      "HD2",
+      "HD3",
+      "HD4",
+      "HD5",
+      "HF1",
+      "HF2",
+      "HF3",
+      "HF4",
+      "HF5",
+      "HB1",
+      "HB2",
+      "HB3",
+      "HB4",
+      "HB5",
+      "CH1",
+      "CH2",
+      "CH3",
+      "CH4",
+      "AU1",
+      "AU2",
+      "ST1",
+      "ST2",
+      "FB1",
+      "FB2",
+      "FB3",
+      "FB4",
+      "FB5",
+      "AF5",
+      "FF1",
+      "FF2",
+      "FF3",
+      "FF4",
+      "FF5",
+      "AB5",
+      "WX1",
+      "SP1",
+      "SP4",
+      "LG1",
+      "LG4",
+      "LG5",
+      "LG7",
+      "LG8",
+      "LG15",
+      "LG17",
+      "LG18",
+      "LG19",
+      "LG20",
+      "LG21",
+      "LG22",
+      "LG23",
+      "LG24",
+      "LG25",
+      "LG26",
+      "LG28",
+      "LG29",
+      "LG31",
+      "LG32",
+      "LG33",
+      "LG34",
+      "LG36",
+      "LG37",
+      "LG39",
+      "LG40",
+      "LG41",
+      "LG48",
+      "LG49",
+      "LG50",
+      "LG51",
+      "LG52",
+      "LG53",
+      "LG54",
+      "LG55",
+      "LG57",
+      "LG58",
+      "LG59",
+      "LG60",
+      "LG61",
+      "OV1",
+      "SR1",
+      "SR21",
+      "SR22",
+      "SR23",
+      "SR24",
+      "SR25",
+      "SR26",
+      "SR27",
+      "SR28",
+      "SR29",
+      "SR30"
+    ]
+  }
+}
