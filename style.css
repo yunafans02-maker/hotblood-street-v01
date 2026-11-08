@@ -1,0 +1,182 @@
+:root {
+  --ink: #0b0f0d;
+  --gold: #c9a96a;
+  --paper: #e9e0c9;
+  --panel: rgba(14, 17, 15, 0.9);
+  --line: rgba(201, 169, 106, 0.55);
+  --serif: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", serif;
+  --sl: env(safe-area-inset-left, 0px);
+  --sr: env(safe-area-inset-right, 0px);
+  --st: env(safe-area-inset-top, 0px);
+  --sb: env(safe-area-inset-bottom, 0px);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+[hidden] { display: none !important; }
+html, body {
+  width: 100%; height: 100%; overflow: hidden;
+  background: var(--ink); color: var(--paper); font-family: var(--serif);
+  touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none;
+  overscroll-behavior: none;
+}
+button { font-family: inherit; color: inherit; cursor: pointer; }
+
+#game {
+  position: fixed; left: 0; top: 0; display: block;
+  image-rendering: crisp-edges; image-rendering: pixelated;
+}
+
+/* 開始畫面之前不顯示操作介面 */
+body:not(.playing) #hud,
+body:not(.playing) #btn-menu,
+body:not(.playing) #joy,
+body:not(.playing) .act { display: none; }
+
+/* 狀態列 */
+#hud {
+  position: fixed; z-index: 5; pointer-events: none;
+  top: calc(var(--st) + 10px); left: calc(var(--sl) + 14px);
+  display: flex; flex-direction: column; align-items: flex-start; gap: 6px;
+  font-size: 13px; letter-spacing: 0.08em; text-shadow: 0 1px 3px #000;
+}
+#hud-money, #hud-quest {
+  background: rgba(10, 12, 10, 0.55); border: 1px solid rgba(201, 169, 106, 0.3);
+  padding: 3px 10px;
+}
+#hud-money b { color: var(--gold); font-weight: 700; }
+#hud-quest { color: #d9cfb4; max-width: 46vw; }
+
+#btn-menu {
+  position: fixed; z-index: 10;
+  top: calc(var(--st) + 8px); right: calc(var(--sr) + 12px);
+  width: 40px; height: 40px; font-size: 18px;
+  background: rgba(10, 12, 10, 0.5); border: 1px solid rgba(201, 169, 106, 0.35);
+}
+
+/* 搖桿 */
+#joy {
+  position: fixed; z-index: 10; pointer-events: none;
+  left: calc(var(--sl) + 100px); top: calc(100% - 100px);
+  width: 100px; height: 100px; transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1.5px solid rgba(233, 224, 201, 0.25); background: rgba(10, 12, 10, 0.25);
+  opacity: 0.4; transition: opacity 0.15s;
+}
+#joy.active { opacity: 0.9; transition: none; }
+#joy-knob {
+  position: absolute; left: 50%; top: 50%;
+  width: 42px; height: 42px; margin: -21px 0 0 -21px; border-radius: 50%;
+  background: rgba(233, 224, 201, 0.3); border: 1.5px solid rgba(201, 169, 106, 0.7);
+}
+body.dialog #joy { opacity: 0; }
+
+/* 動作按鈕 */
+.act {
+  position: fixed; z-index: 10; border-radius: 50%;
+  display: grid; place-items: center;
+  background: rgba(16, 20, 17, 0.55); border: 1.5px solid rgba(201, 169, 106, 0.5);
+  font-weight: 700; text-shadow: 0 1px 2px #000;
+  transition: transform 0.08s, border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+.act.down { transform: scale(0.92); }
+#btn-a {
+  right: calc(var(--sr) + 22px); bottom: calc(var(--sb) + 30px);
+  width: 76px; height: 76px; font-size: 24px;
+}
+#btn-a.ready {
+  border-color: var(--gold); background: rgba(70, 52, 24, 0.6);
+  box-shadow: 0 0 16px rgba(201, 169, 106, 0.45);
+}
+#btn-b {
+  right: calc(var(--sr) + 112px); bottom: calc(var(--sb) + 18px);
+  width: 56px; height: 56px; font-size: 19px;
+}
+#btn-b.down { background: rgba(70, 52, 24, 0.6); border-color: var(--gold); }
+body.dialog #btn-b { opacity: 0; pointer-events: none; }
+
+/* 對話框 */
+#dialog {
+  position: fixed; z-index: 12;
+  left: calc(var(--sl) + 16px); right: calc(var(--sr) + 118px); bottom: calc(var(--sb) + 14px);
+  max-width: 760px; margin: 0 auto; min-height: 86px;
+  padding: 16px 22px 18px;
+  background: var(--panel); border: 1px solid var(--line);
+  box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.45), 0 6px 24px rgba(0, 0, 0, 0.5);
+  font-size: 17px; line-height: 1.65; letter-spacing: 0.04em;
+}
+#dlg-name {
+  position: absolute; top: -15px; left: 16px;
+  padding: 1px 14px; font-size: 14px; letter-spacing: 0.18em;
+  background: #2a1f15; border: 1px solid var(--gold); color: var(--gold);
+}
+#dialog.sys #dlg-text { color: #d4c9ac; text-align: center; }
+#dlg-next {
+  position: absolute; right: 12px; bottom: 6px; font-size: 11px; color: var(--gold);
+  animation: blink 1s steps(2) infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+/* 地名 */
+#banner {
+  position: fixed; z-index: 8; left: 50%; top: 20%;
+  transform: translateX(-50%); opacity: 0; pointer-events: none; white-space: nowrap;
+  padding: 8px 0 8px 0.5em;
+  font-size: 34px; font-weight: 700; letter-spacing: 0.5em;
+  text-shadow: 0 2px 14px #000, 0 0 2px #000;
+  border-top: 1px solid rgba(201, 169, 106, 0.5); border-bottom: 1px solid rgba(201, 169, 106, 0.5);
+}
+#banner.show { animation: banner 3s ease forwards; }
+@keyframes banner {
+  0% { opacity: 0; transform: translate(-50%, 8px); }
+  15%, 70% { opacity: 1; transform: translate(-50%, 0); }
+  100% { opacity: 0; transform: translate(-50%, 0); }
+}
+
+#fade {
+  position: fixed; inset: 0; z-index: 20; pointer-events: none;
+  background: #000; opacity: 0; transition: opacity 0.26s;
+}
+
+/* 選單 */
+#menu {
+  position: fixed; inset: 0; z-index: 30;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(5, 7, 6, 0.72);
+}
+.panel {
+  display: flex; flex-direction: column; gap: 10px;
+  padding: 22px 28px; background: var(--panel); border: 1px solid var(--line);
+}
+.panel button, #start-btns button {
+  min-width: 180px; padding: 10px 26px; font-size: 17px; letter-spacing: 0.3em;
+  background: rgba(20, 24, 20, 0.6); border: 1px solid var(--line);
+}
+.panel button:active, #start-btns button:active { background: rgba(70, 52, 24, 0.6); }
+
+/* 開始畫面 */
+#start {
+  position: fixed; inset: 0; z-index: 40;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+  background: radial-gradient(ellipse at 50% 40%, #1c2a22 0%, #0b0f0d 70%);
+  transition: opacity 0.6s;
+}
+#start.hide { opacity: 0; pointer-events: none; }
+#start h1 {
+  font-size: 58px; font-weight: 700; letter-spacing: 0.4em; padding-left: 0.4em;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+#start .sub { color: var(--gold); letter-spacing: 0.4em; font-size: 13px; margin-top: -6px; }
+#start-btns { display: flex; gap: 14px; margin-top: 10px; }
+#loading { color: #8f8670; font-size: 13px; letter-spacing: 0.2em; }
+
+/* 直屏提示 */
+#rotate {
+  display: none; position: fixed; inset: 0; z-index: 50;
+  flex-direction: column; align-items: center; justify-content: center; gap: 18px;
+  background: var(--ink); font-size: 18px; letter-spacing: 0.25em;
+}
+#rotate .phone {
+  width: 38px; height: 64px; border: 2px solid var(--gold); border-radius: 7px;
+  animation: rot 2.2s ease-in-out infinite;
+}
+@keyframes rot { 0%, 30% { transform: rotate(0); } 60%, 100% { transform: rotate(-90deg); } }
+@media (orientation: portrait) { #rotate { display: flex; } }
